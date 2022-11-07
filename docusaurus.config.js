@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Bot Designer for Discord - Unofficial Wiki',
-  tagline: 'Create your own discord bot with BDFD today!',
+  title: 'BDFD Templates',
+  tagline: 'BDFD Commands, Guides, Tips & Tutorials',
   url: 'https://priyanuj-gogoi.github.io',
   baseUrl: '/docusaurus-test/',
   onBrokenLinks: 'warn',
@@ -68,36 +68,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
+            title: 'Need Help?',
             items: [
               {
-                label: 'Reddit',
-                href: 'https://www.reddit.com/r/DiscordBotDesigner/',
-              },
-              {
-                label: 'Discord',
+                label: 'Join the official Discord server',
                 href: 'https://discord.com/servers/bot-designer-for-discord-official-server-566363823137882154',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Android App',
-                href: 'https://play.google.com/store/apps/details?id=com.jakubtomana.discordbotdesinger',
-              },
-              {
-                label: 'iOS App',
-                href: 'https://apps.apple.com/app/bot-designer-for-discord/id1495536477',
-              },
-              {
-                label: 'Web App',
-                href: 'https://botdesignerdiscord.com/webapp',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/nilpointer-software/bdfd-wiki',
               },
             ],
           },
