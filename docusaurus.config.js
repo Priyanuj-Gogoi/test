@@ -37,6 +37,11 @@ const config = {
         title: 'BDFD Docs',
         items: [
           {
+             to: 'src/pages/changelog.md',
+             label: 'Changelog',
+             position: 'left',
+          },
+          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
