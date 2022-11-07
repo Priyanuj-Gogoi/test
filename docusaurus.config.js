@@ -49,11 +49,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'BDFD Templates',
-        logo: {
-          alt: 'bdfdLogo',
-          src: 'img/bdfd.png',
-        },
+        title: 'Bot Designer for Discord - Unofficial Wiki',
         items: [
           {
             type: 'doc',
