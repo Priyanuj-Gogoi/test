@@ -1,4 +1,4 @@
-name: CI
+name: Deploy
 on: [push]
 
 jobs:
@@ -6,9 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - uses: redkubes/docusaurus-deploy-action@v1
+      - uses: redkubes/docusaurus-deploy-action@v1.2
         with:
           source-folder: website
           git-user: ${{ github.event.head_commit.author.username }}
-          git-password: ${{ secrets.GITHUB_TOKEN }}
+          git-password: ${{ secrets.TOKEN }}
           deployment-branch: gh-pages
