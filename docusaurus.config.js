@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/docusaurus-test/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  onDuplicateRoutes: 'error',
+  onDuplicateRoutes: 'warn',
   favicon: 'img/favicon.ico',
   trailingSlash: false,
   organizationName: 'Priyanuj-Gogoi',
