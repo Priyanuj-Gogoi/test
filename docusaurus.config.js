@@ -6,19 +6,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Bot Designer for Discord - Unofficial Wiki',
+  tagline: 'Create your own discord bot with BDFD today!',
   url: 'https://priyanuj-gogoi.github.io',
   baseUrl: '/docusaurus-test/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  onDuplicateRoutes: 'error',
   favicon: 'img/favicon.ico',
   trailingSlash: false,
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Priyanuj-Gogoi', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-test', // Usually your repo name.
+  organizationName: 'Priyanuj-Gogoi',
+  projectName: 'docusaurus-test',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -74,15 +72,6 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
               {
@@ -117,7 +106,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Priyanuj Gogoi.`,
       },
       prism: {
         theme: lightCodeTheme,
