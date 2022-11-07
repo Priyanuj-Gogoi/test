@@ -13,7 +13,6 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   onDuplicateRoutes: 'warn',
-  favicon: 'img/favicon.ico',
   trailingSlash: false,
   organizationName: 'Priyanuj-Gogoi',
   projectName: 'docusaurus-test',
@@ -71,13 +70,13 @@ const config = {
             title: 'Need Help?',
             items: [
               {
-                label: 'Join the official Discord server',
+                label: 'Join us in our official Discord server',
                 href: 'https://discord.com/servers/bot-designer-for-discord-official-server-566363823137882154',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Priyanuj Gogoi.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Priyanuj Gogoi. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
