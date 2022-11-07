@@ -61,9 +61,9 @@ const config = {
         title: 'BDFD Templates',
         logo: {
           alt: 'bdfdLogo',
-          src: 'https://cdn.discordapp.com/emojis/980037317353930772',
+          src: 'image/bdfd.png',
         },
-        image: 'https://cdn.discordapp.com/emojis/980037317353930772',
+        image: 'image/bdfd.png',
         items: [
           {
             type: 'doc',
