@@ -58,10 +58,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Bot Designer for Discord - Unofficial Wiki',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'bdfdLogo',
+          src: 'https://cdn.discordapp.com/emojis/980037317353930772',
         },
         items: [
           {
