@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'BDFD Templates',
-  tagline: 'BDFD Commands, Guides, Tips & Tutorials',
+  title: 'BDFD Docs',
+  tagline: 'Documention of BDFD Functions, Callbacks, Features etc.',
   url: 'https://priyanuj-gogoi.github.io',
   baseUrl: '/docusaurus-test/',
   onBrokenLinks: 'warn',
@@ -48,7 +48,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'BDFD Templates',
+        title: 'BDFD Docs',
         items: [
           {
             type: 'doc',
