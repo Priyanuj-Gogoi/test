@@ -94,16 +94,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Reddit',
+                href: 'https://www.reddit.com/r/DiscordBotDesigner/',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://discord.com/servers/bot-designer-for-discord-official-server-566363823137882154',
               },
             ],
           },
@@ -111,12 +107,20 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Android App',
+                href: 'https://play.google.com/store/apps/details?id=com.jakubtomana.discordbotdesinger',
+              },
+              {
+                label: 'iOS App',
+                href: 'https://apps.apple.com/app/bot-designer-for-discord/id1495536477',
+              },
+              {
+                label: 'Web App',
+                href: 'https://botdesignerdiscord.com/webapp',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/nilpointer-software/bdfd-wiki',
               },
             ],
           },
