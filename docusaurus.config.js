@@ -9,7 +9,7 @@ const config = {
   title: 'BDFD Docs',
   tagline: 'Documention of BDFD Functions, Callbacks, Features etc.',
   url: 'https://priyanuj-gogoi.github.io',
-  baseUrl: '/docusaurus-test/nightly/',
+  baseUrl: '/docusaurus-test/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   onDuplicateRoutes: 'warn',
