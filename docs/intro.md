@@ -2,46 +2,22 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# JavaScript
+> 📌 As of mid 2020, JavaScript script language in BDFD has been **deprecated**.
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Besides using the official BDFD script language (i.e **BDScript**) to develop Discord Bots. Bot Designer For Discord also supports developing bots using [JavaScript](https://javascript.com).
 
-## Getting Started
+In this wiki page and the following sub-wikis, you will learn and explore more about BDFD JavaScript.
 
-Get started by **creating a new site**.
+## Introduction
+**BDFD JavaScript** *(a.k.a BDJS)* is an another script language available in the app which can be used as alternative to BDScript for developing a Discord Bot. Unlike BDScript, BDJS executes a JavaScript code. It uses ECMAScript 2015 (ES6) JavaScript version. BDJS has limited Discord API functions support available.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+This script is powered by a JS engine made using [Go](https://go.dev) and is not an actual JavaScript.
 
-### What you'll need
+> 📌 BDFD JavaScript is not recommended to be used by users who aren't familiar with JavaScript language. It's a language which is entirely different from BDScript and without any proper JS knowledge, the user would get confused whether be it in understanding or writing codes.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+> 📚 Want to learn JavaScript and don't know where to get started?\
+Then, check out the following JavaScript learning resources :\
+\
+[![MDN Web Docs](https://img.shields.io/badge/mdn_javascript_guide-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)\
+[![Modern JavaScript Tutorial](https://img.shields.io/badge/modern_javascript_tutorial-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://javascript.info)
