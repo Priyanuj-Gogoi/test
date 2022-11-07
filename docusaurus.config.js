@@ -63,7 +63,6 @@ const config = {
           alt: 'bdfdLogo',
           src: 'image/bdfd.png',
         },
-        image: 'image/bdfd.png',
         items: [
           {
             type: 'doc',
