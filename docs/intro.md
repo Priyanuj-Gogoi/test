@@ -2,13 +2,14 @@
 sidebar_position: 1
 ---
 
+# Introduction
+
 :::caution
 
 As of mid 2020, BDJS script language has been **deprecated**.
 
 :::
 
-# Introduction
 Besides using the default script language (i.e **BDScript 2**) to develop Discord bots in the app. **Bot Designer For Discord** also supports developing bots using [JavaScript](https://javascript.com).
 
 In this page and the following sub-pages, you will learn and explore more about BDFD JavaScript.
