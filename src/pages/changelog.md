@@ -1,14 +1,14 @@
 # Changelog
 
-# 2022
+## 2022
 
-## November
+### November
 - Deprecated `$userJoinedDiscord[]` in favor of `$creationDate[]`
 - Added `Format` argument to `$creationDate[]`
 - Added `$editSplitText[]`
 - Added `$serverEmojis[]`
 
-## October
+### October
 - Added `$publishMessage[]`
 - Made `$useChannel[]` work with message components
 - Added `$channelPosition[]`
@@ -28,7 +28,7 @@
 - Fixed the guild list fetching issue
 - Added `$parentID`
 
-## September
+### September
 - Added `channelID` field to `$awaitFunc[]`
 - Added `$trimContent`
 - Fixed fetching guilds not always working in the app
@@ -45,7 +45,7 @@
 - Fixed some callbacks not being detected as callbacks
 - Fixed attachments not working in slash commands
 
-## August
+### August
 - Added `$scriptLanguage`
 - Fixed `$stop` breaking `$if[]`
 - Renamed `$customImage[]` argument to `Custom image tag`
@@ -61,7 +61,7 @@
 - Fixed `$cropText[]` not supporting unicode
 - Not putting required slash command options on top no longer breaks the commands
 
-## July
+### July
 - Added hex to the color picker
 - Fixed `$executionTime` not working inside embed fields
 - App now sends notification when bot hosting is expired
@@ -71,13 +71,13 @@
 - Fixed verification of slash command names
 - Fixed `$sort` not working with `-1` as return amount
 
-## June
+### June
 - Fixed `$onlyBotChannelPerms[]`
 - Fixed description verification in `$addSelectMenuOption[]` and `$editSelectMenuOption[]`
 - Updated limits of select menu options
 - Fixed updating components which are refering to `$messageID`
 
-## May
+### May
 - Fixed token issues
 - Fixed disappearing slash command options
 - `AllowedMentions` field is now used in `$channelSendMessage[]`, `$sendEmbedMessage[]` and `$sendMessage[]`
@@ -88,12 +88,11 @@
 - Fixed empty values in variables not getting saved
 - Fixed userID being ignored when guildID was passed to `$getUserVar[]`
 
-## April
+### April
 - Added `"return ID of the ticket message"` argument to `$newTicket[]`
 - Fixed disappearing slash commands from the app's state
 
-## March
-- **If you're getting Invalid permissions error on your invite link,  disable Stream and View guild insights permissions in the invite editor.**
+### March
 - Added `$toTitleCase[]`
 - Fixed invite permission calculator
 - Fixed `$suppressErrors[]` and `$embedSuppressErrors[]` getting ignored by components errors
@@ -102,14 +101,14 @@
 - Added `$unregisterGuildCommands[]`
 - Added `/callback_list`, `/callback_tag_list`, and `/callback/:callback_tag` endpoints to public BDFD API
 
-## February
+### February
 - `$httpResult[]` can return JSON now
 - Fixed `$httpResult[]` not working with multiple requests
 - Saving a command in the webapp no longer restarts the bots
 - Optimized slash commands resynchronization
 - Fixed custom images not working after saving a command
 - Made it possible to escape `\` by using `\\`
-- **Removed user permission check for $ban[], $banID[], $unban[] and $unbanID[]**
+- Removed user permission check for `$ban[]`, `$banID[]`, `$unban[]` and `$unbanID[]`
 - Added `$newModal[]`
 - Added `$addTextInput[]`
 - Added `$input[]`
@@ -121,7 +120,7 @@
 - Added `$autoCompleteOptionValue`
 - Added `$appendOptionSuggestion[]`
 
-## January
+### January
 -  Added `$unescape[]`
 -  Added a neutral permission (`/<perm>`) to `$modifyChannelPerms[]`
 -  Added stop bot button in the app
@@ -135,9 +134,9 @@
 -  Added public BDFD API
 -  Added `$serverDescription[]`
 
-# 2021
+## 2021
 
-## December
+### December
 - Saving a command no longer causes the bot to restart
 - Fixed `$noMentionMessage[]` in BDScript 2
 - Added `$timeout[]` and `$untimeout[]`
@@ -159,7 +158,7 @@
 - Fixed unintentional server restarts
 - The last argument in `$replaceText[]` is now optional
 
-## November
+### November
 - Added `$reply[]`
 - Added `$trimSpace[]`
 - Added `$url[]`
@@ -176,7 +175,7 @@
 - Added `$'randomChannelID` (BDScript Unstable only)
 - Fixed `$textSplit[]` removing space
 
-## October
+### October
 - Added `$deleteMessage[]`
 - Added `$hostingExpireTime[]`
 - Added timestamp option to `$premiumExpireTime`
@@ -189,13 +188,13 @@
 - Made it possible to use `https://youtu.be/` URL in the streaming statuses
 - Added `$getTextSplitIndex[]`
 - Added `$serverChannelExists[]`
-- Fixed `$changeUsername[]` `$changeUsernameWithID[]` not working on the current bot
+- Fixed `$changeUsername[]` and `$changeUsernameWithID[]` not working on the current bot
 - Made `$ephemeral` work with the buttons
 - Fixed global variables not getting saved
 - Fixed `$deletecommand` not getting catched by `$try` block
 - Made it possible to open function's wiki article from the functions list
 
-## September
+### September
 - Updated ToS
 - Fixed `$executionTime` not working in embeds
 - Added `$botNode`
@@ -209,7 +208,7 @@
 - Added `$serverNames[]`
 - Improved variables lookup time
 
-## August
+### August
 - Added `$webhookTitle[]`
 - Added `$webhookDescription[]`
 - Added `$webhookFooter[]`
@@ -217,9 +216,9 @@
 - Added `$webhookUsername[]`
 - Added `$webhookAvatarURL[]`
 - Added `$webhookCreate[]`
-- **Removed permission check from** `$deleteChannelsByName[]`
-- **Removed permission check from** `$deleteChannels[]`
-- **Removed permission check from** `$createChannel[]`
+- Removed permission check from `$deleteChannelsByName[]`
+- Removed permission check from `$deleteChannels[]`
+- Removed permission check from `$createChannel[]`
 - Fixed the issue with bots not working in threads
 - Added `$startThread[]`
 - Added `$webhookColor[]`
@@ -227,7 +226,7 @@
 - Fixed floating points in `$onlyIf[]` conditions
 - Added `$webhookDelete[]`
 - Added `$webhookSend[]`
-- **Removed permission check from** `$modifyChannelPerms[]`
+- Removed permission check from `$modifyChannelPerms[]`
 - Made it possible to use multiple `$onInteraction[]`s
 - Added `$onInteraction` callback (without `[]`)
 - Added `$customID`
@@ -244,7 +243,7 @@
 - Fixed condition parsing in `$if[]` for the normal BDScript and BDScript Unstable (BDScript 2 didn't have any issues)
 - Made command saving faster
 
-## July
+### July
 - Added `$getTimestamp`
 - Added support for decimals in the math functions
 - Added `$newSelectMenu[]`
@@ -275,11 +274,11 @@
 - Added `$guildExists[]`
 - Fixed `$serverVerificationLvl`
 
-## June
+### June
 - Fixed `$sendMessage[]` not working in normal BDScript
 - Fixed `$checkUserPerms[]`
-- Added **[BDScript 2](./guides/bdscript2.md)**
-- Added **[$try, $catch and $error](./guides/trycatch.md)**
+- Added `BDScript 2` script language
+- Added `$try`, `$catch` and `$error`]
 - Added `$eval[]` **(can be only used in BDScript 2)**
 - Added `$optOff[]` **(can be only used in BDScript 2)**
 - Added `$stop[]` **(can be only used in BDScript 2)**
@@ -304,7 +303,7 @@
 - Added `$httpAddHeader[]`
 - Added `$httpRemoveHeader[]`
 
-## May
+### May
 - Fixed a bug which allowed executing certain types of callbacks as normal commands
 - Fixed member caching issue
 - Fixed caching bots
@@ -317,13 +316,13 @@
 - Fixed some issues with slash commands
 - Added `$c[]` which can be used for commenting your code
 
-## April
+### April
 - Added `$httpGet[]`, `$httpPost[]`, `$httpPut[]`, `$httpDelete[]` and `$httpPatch[]`
 - Improved overall caching
 - Added `$httpResult[]`
 - Made command execution faster
 
-## March
+### March
 - Added `$cropText[]`
 - Added `userID` field to `$awaitFunc[]`
 - Fixed removing normal commands and slash commands
@@ -344,7 +343,7 @@
 - Fixed some issues with `[` and `]`
 - Fixed problems with slash commands and cooldowns
 
-## February
+### February
 - Added `$sendMessage[]`
 - Added `$reply`
 - Added slash commands
@@ -355,7 +354,7 @@
 - Added new optional field to `$message[]`
 - Fixed semicolons in `$channelSendMessage[]`
 
-## January
+### January
 - Fixed the problem with statuses not showing up
 - Fixed the issue with mentions not working
 - Fixed loading bots from database
@@ -369,9 +368,9 @@
 - Added `$findChannel[]` and `$channelExists[]`
 - Added `$userJoined[]` and `$userJoinedDiscord[]`
 
-# 2020
+## 2020
 
-## December
+### December
 - Timezones in `$time[]` has been fixed
 - Updated discord API version
 - Added Competing presence
@@ -381,7 +380,7 @@
 - Added serverID option to `$serverOwner`
 - Added `$premiumExpireTime`
 
-## November
+### November
 - Fixed disappearing bot status
 - Fixed `$serverCount` in bot status
 - Improved caching
@@ -392,7 +391,7 @@
 - Added awaited reactions
 - Fixed problems with DMs
 
-## October
+### October
 - Optimized memory usage
 - Added member and presence intents
 - Added `$editEmbedIn[]`
@@ -406,7 +405,7 @@
 - Fixed `$serverVerificationLvl` not working on very high verification servers
 - Fixed reconnecting bots to gateway
 
-## September
+### September
 - Added `$ignoreTriggerCase` for premium bots
 - Fixed caching guilds
 - `$findUser[]` & `$findRole[]` are no longer case sensitive
@@ -415,7 +414,7 @@
 - Fixed weird brackets in embeds
 - Added trigger list in the app
 
-## August
+### August
 - Migrated to the new infrastructure (new database and API)
 - Premium released
 - Fixed `$isMentionable[]`
@@ -427,7 +426,7 @@
 - Added `$findRole[]`
 - Added `$disableSpecialEscaping`
 
-## July
+### July
 - Renamed `$splitText[]` to `$getSplitText[]` to avoid confusion _(`$splitText[]` still works)_
 - Added `$joinSplitText[]`
 - Added `$getInviteInfo[]`
@@ -437,19 +436,19 @@
 - Enabled BDScript Unstable for callbacks
 - Added `$getTextSplitLength`
 
-## June
+### June
 - Fixed `$getReactions[]` in BDScript Unstable
 - Fixed bracket escaping for some commands in BDScript Unstable
 - Fixed `$modifyChannel[]` (random slowmodes added on channels)
 
-## May
+### May
 - Fixed `$onlyBotPerms[]`
 - Bot Designer List Open Beta
 - Added `$botListDescription[]` and `$botListHide`
 - Fixed brackets issue in `$serverNames`
 - Other bug fixing for Bot Designer and Bot Designer List
 
-## April
+### April
 - Fixed `$serverIcon`
 - Added `$changeCooldownTime[]`
 - Disabled `$randomUserID`, `$'randomUserID`, `$deleteIn` and `$dm` in `$onMessageDelete`
@@ -460,7 +459,7 @@
 - Removed permission check from `$clear` command.
 - Fixed `$isAdmin[]`
 
-## March
+### March
 - Added `$getReactions[]` and `$userReacted[]`
 - New command interpreter
 - Added to new parser:
@@ -486,7 +485,7 @@
 - Fixed `$onlyPerms[]`
 - Fixed the bug with `$` command prefix and `$message`
 
-## February
+### February
 - Fixed errors in `$addField`
 - Added `$serverRegion`
 - Added `$serverOwner`
@@ -513,7 +512,7 @@
 - Fixed `$globalUserLeaderboard[]`
 - `$repeatMessage[]` won't send an error when there is `0` provided
 
-## January
+### January
 - Final premium preparations
 - Space commands for premium bots
 - Added `sendChannelMessage()` to JS
@@ -542,9 +541,9 @@
 - Added multiline support for `$textSplit[]`
 - Fixed brackets in `$username`
 
-# 2019
+## 2019
 
-## December
+### December
 - Fixed high ping issues
 - Fixed whole bunch of other issues
 - To JS added:
@@ -569,7 +568,7 @@
 - Fixed `$banID[]`
 - Preparations for premium points
 
-## November
+### November
 - Added `$rolePosition[]`
 - Released translation strings to volunteers
 - Added `kick()` and `ban()` to JS
