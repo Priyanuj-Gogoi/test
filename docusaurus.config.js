@@ -50,8 +50,7 @@ const config = {
           {
             href: 'https://github.com/nilpointer-software/bdfd-wiki',
             position: 'right',
-            className: 'header-github-link',
-            'aria-label': 'GitHub',
+            label: 'GitHub',
           },
         ],
       },
@@ -59,16 +58,37 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Need Help?',
+            title: 'Community',
             items: [
               {
-                label: 'Join us in our official Discord server',
+                label: 'Discord',
                 href: 'https://discord.com/servers/bot-designer-for-discord-official-server-566363823137882154',
+              },
+              {
+                label: 'Reddit',
+                href: 'https://www.reddit.com/r/DiscordBotDesigner/'
+              },
+            ],
+          },
+          {
+            title: 'External Links',
+            items: [
+              {
+                label: 'Android App',
+                href: 'https://play.google.com/store/apps/details?id=com.jakubtomana.discordbotdesinger',
+              },
+              {
+                label: 'iOS App',
+                href: 'https://apps.apple.com/app/bot-designer-for-discord/id1495536477',
+              },
+              {
+                label: 'Web App',
+                href: 'https://botdesignerdiscord.com/webapp',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Priyanuj Gogoi. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NilPointer Software. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
