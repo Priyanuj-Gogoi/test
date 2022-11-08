@@ -42,22 +42,9 @@ const config = {
            src: 'https://cdn.discordapp.com/emojis/980037317353930772.png',
         },
         items: [
-          {
-             to: 'changelog',
-             label: 'Changelog',
-             position: 'left',
-          },
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            href: 'https://github.com/nilpointer-software/bdfd-wiki',
-            position: 'right',
-            label: 'GitHub',
-          },
+          { label: 'Changelog', to: 'changelog', position: 'left' },
+          { label: 'JavaScript', type: 'doc', docId: 'intro', position: 'left' },
+          { label: 'GitHub', href: 'https://github.com/nilpointer-software/bdfd-wiki', position: 'right' },
         ],
       },
       colorMode: {
