@@ -49,9 +49,9 @@ const config = {
           },
           {
             href: 'https://github.com/nilpointer-software/bdfd-wiki',
-            aria-label: 'GitHub',
             position: 'right',
             className: 'header-github-link',
+            'aria-label': 'GitHub',
           },
         ],
       },
