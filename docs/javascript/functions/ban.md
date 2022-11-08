@@ -9,12 +9,13 @@ ban(userID)
 ### Parameters
 - `userID` : The user to ban. Value must be a valid user snowflake ID.
 
-### Permissions
+## Permissions
 Required permission which the bot must have for this function to work properly.
 - `ban`
 
-### Example
-```js
+## Example
+### Code
+```js title="!ban"
 try {
   const msg = message.replace(commandPrefix, '').trim();
 
@@ -38,5 +39,13 @@ try {
 };
 ```
 
+<details>
+  <summary>Explain me!</summary>
+  <div>
+    <div>No</div>
+  </div>
+</details>
+
+### Preview
 ![Screenshot_20220917_165612](https://user-images.githubusercontent.com/95774950/190855774-b530f41a-df82-4eb7-a333-f52d613d6327.png)\
 ![InShot_20220917_172017419](https://user-images.githubusercontent.com/95774950/190855782-1aa5bf81-06d0-409d-bc06-2cf4aaecc1fb.jpg)
