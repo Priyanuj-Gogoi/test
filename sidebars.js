@@ -1,6 +1,6 @@
 const sidebars = {
   javascript: [
-    'intro',
+    'javascript/intro',
     'javascript/objects',
     {
       type: 'category',
