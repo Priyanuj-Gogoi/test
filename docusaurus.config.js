@@ -63,6 +63,14 @@ const config = {
       colorMode: {
            defaultMode: 'dark',
         },
+      metadata : [
+        { name: 'og:title', content: 'BDFD Docs' },
+        { name: 'og:description', content: 'Unofficial documention of BDFD functions,  callbacks, features etc.' },
+        { name: 'og:image', content: 'https://cdn.discordapp.com/emojis/980037317353930772' },
+        { name: 'og:url', content: 'https://priyanuj.gogoi.github.io/test' },
+        { name: 'og:type', content: 'website' },
+        { name: 'theme-color', content: '#748bd4' }
+      ],
       footer: {
         style: 'dark',
         links: [
