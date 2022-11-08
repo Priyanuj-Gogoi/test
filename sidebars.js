@@ -1,7 +1,7 @@
 const sidebars = {
   javascript: [
     'intro',
-    'objects',
+    'javascript/objects',
     {
       type: 'category',
       label: 'Functions',
