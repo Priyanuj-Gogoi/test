@@ -39,7 +39,7 @@ const config = {
         title: 'BDFD Docs',
         logo: {
            alt: 'BDFD Logo',
-           href: 'https://cdn.discordapp.com/emojis/980037317353930772.png',
+           src: 'https://cdn.discordapp.com/emojis/980037317353930772.png',
         },
         items: [
           {
