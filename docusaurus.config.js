@@ -77,6 +77,10 @@ const config = {
             title: 'External Links',
             items: [
               {
+                label: 'Website',
+                href: 'https://botdesignerdiscord.com'
+              },
+              {
                 label: 'Android App',
                 href: 'https://play.google.com/store/apps/details?id=com.jakubtomana.discordbotdesinger',
               },
@@ -86,12 +90,12 @@ const config = {
               },
               {
                 label: 'Web App',
-                href: 'https://botdesignerdiscord.com/webapp',
+                href: 'https://botdesignerdiscord.com/app',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NilPointer Software. Built with Docusaurus.`,
+        copyright: `Documention currently on rewrite!!`,
       },
       prism: {
         theme: lightCodeTheme,
