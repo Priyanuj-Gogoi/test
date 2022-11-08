@@ -8,6 +8,6 @@ jobs:
       - uses: actions/checkout@master
       - uses: redkubes/docusaurus-deploy-action@v1.2
         with:
-          source-folder: javascript
+          source-folder: docs
           git-user: ${{ github.event.head_commit.author.username }}
           deployment-branch: gh-pages
