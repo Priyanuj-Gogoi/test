@@ -1,10 +1,11 @@
 const sidebars = {
   javascript: [
     'intro',
+    'objects',
     {
       type: 'category',
       label: 'Functions',
-      dirName: 'javascript',
+      items: [{'type': 'doc', 'id': 'javascript/functions/ban'}]
     },
   ],
 };
