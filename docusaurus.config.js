@@ -25,7 +25,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/priyanuj-gogoi/test/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,11 +43,6 @@ const config = {
         },
         items: [
           { label: 'Changelog', to: 'changelog', position: 'left' },
-          { label: 'Introduction', type: 'doc', docId: 'intro', position: 'left'},
-          { label: 'Guides', type: 'doc', docId: 'intro', position: 'left' },
-          { label: 'Resources', type: 'doc', docId: 'intro', position: 'left' },
-          { label: 'BDScript', type: 'doc', docId: 'intro', position: 'left' },
-          { label: 'Premium', type: 'doc', docId: 'intro', position: 'left' },
           { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' }
         ],
       },
