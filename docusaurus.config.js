@@ -43,8 +43,10 @@ const config = {
         },
         items: [
           { label: 'Changelog', to: 'changelog', position: 'left' },
-          { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' },
-          { label: 'GitHub', href: 'https://github.com/nilpointer-software/bdfd-wiki', position: 'right' },
+          { label: 'Introduction', type: 'doc', docId: 'intro', position: 'left'},
+          { label: 'Resources', type: 'doc', docId: 'intro', position: 'left' },
+          { label: 'BDScript', type: 'doc', docId: 'intro', position: 'left'},
+          { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' }
         ],
       },
       colorMode: {
