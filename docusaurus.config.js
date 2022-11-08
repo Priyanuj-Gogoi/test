@@ -48,9 +48,10 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/nilpointer-software/bdfd-wiki',
+            aria-label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
           },
         ],
       },
