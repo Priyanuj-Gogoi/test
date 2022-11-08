@@ -5,7 +5,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Functions',
-      items: [{'type': 'doc', 'id': 'javascript/functions/ban'}]
+      link: { type: 'generated-index' },
+      items: [ 'javascript/functions/ban' ]
     },
   ],
 };
