@@ -10,4 +10,5 @@ jobs:
         with:
           source-folder: docs
           git-user: ${{ github.event.head_commit.author.username }}
+          git-password: ${{ secrets.TOKEN }}
           deployment-branch: gh-pages
