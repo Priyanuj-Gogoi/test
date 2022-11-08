@@ -6,12 +6,15 @@ const config = {
   tagline: 'Documention of BDFD Functions, Callbacks, Features etc.',
   url: 'https://priyanuj-gogoi.github.io',
   baseUrl: '/test/',
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  onDuplicateRoutes: 'warn',
+  onDuplicateRoutes: 'throw',
   trailingSlash: false,
   organizationName: 'Priyanuj-Gogoi',
   projectName: 'test',
+  favicon: 'https://cdn.discordapp.com/emojis/980037317353930772.png',
+  noIndex: true,
+  deployment-branch: 'gh-pages',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -35,6 +38,10 @@ const config = {
     ({
       navbar: {
         title: 'BDFD Docs',
+        logo: {
+           alt: 'BDFD Logo',
+           href: 'https://cdn.discordapp.com/emojis/980037317353930772.png',
+        },
         items: [
           {
              to: 'changelog',
@@ -54,6 +61,9 @@ const config = {
           },
         ],
       },
+      colorMode: {
+           defaultMode: 'dark',
+        },
       footer: {
         style: 'dark',
         links: [
