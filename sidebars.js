@@ -1,5 +1,4 @@
 const sidebars = {
-  'changelog',
   javascript: [
     'intro',
     {
