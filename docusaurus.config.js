@@ -14,7 +14,6 @@ const config = {
   projectName: 'test',
   favicon: 'https://cdn.discordapp.com/emojis/980037317353930772.png',
   noIndex: true,
-  deployment-branch: 'gh-pages',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
