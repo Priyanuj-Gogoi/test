@@ -7,18 +7,18 @@ This function uses UTC (+00:00) time zone by default. To change the time zone, u
 
 :::
 
-# Syntax
+## Syntax
 ```
 $year
 ```
 
-# Example
+## Example
 
-## Code
-``` title="!year"
+### Code
+```plain title="!year"
 $nomention
 Current Year: $year
 ```
 
-## Preview
+### Preview
 ![year](https://user-images.githubusercontent.com/95774950/200877606-76ade960-99b6-433c-be51-4da2be300e07.png)
