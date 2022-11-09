@@ -36,11 +36,7 @@ const config = {
   themeConfig:
     ({
       navbar: {
-        title: 'BDFD Docs',
-        logo: {
-           alt: 'BDFD Logo',
-           src: 'https://cdn.discordapp.com/emojis/980037317353930772.png',
-        },
+        title: 'Bot Designer For Discord',
         items: [
           { label: 'Changelog', to: 'changelog', position: 'left' },
           { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' }
