@@ -43,7 +43,7 @@ It's a language which is entirely different from BDScript and without any proper
 Want to learn JavaScript and don't know where to start from?
 
 Then, check out the following JavaScript learning resources:\
-[![MDN Web Docs](https://img.shields.io/badge/mdn_javascript_guide-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)\n
+[![MDN Web Docs](https://img.shields.io/badge/mdn_javascript_guide-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide){'\n'}
 [![Modern JavaScript Tutorial](https://img.shields.io/badge/modern_javascript_tutorial-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://javascript.info)
 
 :::
