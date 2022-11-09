@@ -20,9 +20,17 @@ $webhookUsername[Webhook URL;Username]
 $nomention
 $trimContent
 
-$argsCheck[>2;Usage: `!webhook.user <URL> <Username>`]
+$argsCheck[>1;Usage: `!webhook.user <URL> (Username)`]
 
-$webhookUsername[$message[1];$replaceText[$message[1];;1]]
+$var[URL;$message[1]]
+$var[Username;$replaceText[$message;$message[1];;1]]
+
+$if[$var[Username]!=]
+    // highlight-next-line
+    $webhookUsername[$var[URL];$var[Username]]
+$endif
+
+$webhookContent[$var[URL];Hello world!]
 ```
 
 ### Preview
