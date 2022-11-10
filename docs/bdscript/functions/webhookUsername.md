@@ -22,11 +22,11 @@ $trimContent
 
 $argsCheck[>1;Usage: `!webhook.user <URL> (Username)`]
 
-$var[Username;$replaceText[$message;$message[1];;1]]
+$var[Name;$replaceText[$message;$message[1];;1]]
 
-$if[$var[Username]!=]
-     // highlight-next-line
-     $webhookUsername[$message[1];$var[Username]]
+$if[$var[Name]!=]
+      // highlight-next-line
+      $webhookUsername[$message[1];$var[Name]]
 $endif
 
 $webhookContent[$message[1];Hello world!]
@@ -40,17 +40,17 @@ $webhookContent[$message[1];Hello world!]
 $nomention
 $trimContent
 ```
-These two functions were used for disabling the default command author mention and remove multiple spaces from the author's message.
+These two functions are used for disabling the default command author mention and removing duplicate spaces from the author's message.
 
 ```
 $argsCheck[>1;Usage: `!webhook.user <URL> (Username)`]
 ```
-`$argsCheck[]` is being used here for limiting the author to supply at least one argument.
+This function limits the author to supply at least one argument. If the author doesn't provide, then it throws the provided custom error message stated in the 2<sup>nd</sup> argument of `$argsCheck[]` function.
 
 ```
 $var[Name;$replaceText[$message;$message[1];;1]]
 ```
-absnsnsns
+`$replaceText[]` is used here to exclude the Webhook URL...(To be continued)
 
 ```
 $if[$var[Name]!=]
