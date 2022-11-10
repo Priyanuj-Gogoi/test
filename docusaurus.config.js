@@ -24,8 +24,10 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/priyanuj-gogoi/test/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/priyanuj-gogoi/test/edit/main/docs/',
+          routeBasePath: '/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
