@@ -21,4 +21,4 @@ Current Year: $year
 ```
 
 ### Preview
-![year](https://user-images.githubusercontent.com/95774950/200877606-76ade960-99b6-433c-be51-4da2be300e07.png)
+![Screenshot_20221110_202608](https://user-images.githubusercontent.com/95774950/201124998-b149342f-e6de-49c3-802c-bd14bdf36d2e.png)
