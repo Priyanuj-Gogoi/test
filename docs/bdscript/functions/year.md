@@ -17,6 +17,7 @@ $year
 ### Code
 ```plain title="!year"
 $nomention
+// highlight-next-line
 Current Year: $year
 ```
 
