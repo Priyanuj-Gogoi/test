@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[561],{2551:t=>{t.exports=JSON.parse('{"title":"Functions","slug":"/category/functions-1","permalink":"/test/category/functions-1","navigation":{"previous":{"title":"Objects","permalink":"/test/javascript/objects"},"next":{"title":"ban","permalink":"/test/javascript/functions/ban"}}}')}}]);
