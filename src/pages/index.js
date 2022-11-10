@@ -30,7 +30,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title=siteConfig.title
+      title={siteConfig.title}
       description="Unofficial documention of BDFD functions, callbacks, features etc.">
       <HomepageHeader />
       <main>
