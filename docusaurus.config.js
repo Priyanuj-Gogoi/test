@@ -24,7 +24,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/priyanuj-gogoi/test/edit/main/docs/',
+          editUrl: 'https://github.com/priyanuj-gogoi/test/edit/main/',
           routeBasePath: '/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true
