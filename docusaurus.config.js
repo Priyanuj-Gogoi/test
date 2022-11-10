@@ -39,7 +39,7 @@ const config = {
         title: 'Bot Designer For Discord',
         items: [
           { label: 'Changelog', to: 'changelog', position: 'left' },
-          { label: 'BDScript', to: 'bdscript', position: 'left' },
+          { label: 'BDScript', type: 'doc', docId: 'bdscript/intro', position: 'left' },
           { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' }
         ],
       },
