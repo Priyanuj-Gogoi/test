@@ -22,7 +22,7 @@ $trimContent
 
 $argsCheck[>1;Usage: `!webhook.user <URL> (Username)`]
 
-$var[Name;$replaceText[$message;$message[1];;1]]
+$var[Name;$trimSpace[$replaceText[$message;$message[1];;1]]]
 
 $if[$var[Name]!=]
       // highlight-next-line
@@ -45,24 +45,28 @@ These two functions are used for disabling the default command author mention an
 ```
 $argsCheck[>1;Usage: `!webhook.user <URL> (Username)`]
 ```
-This function limits the author to supply at least one argument. If the author doesn't provide, then it throws the provided custom error message stated in the 2<sup>nd</sup> argument of `$argsCheck[]` function.
+`$argsCheck[]` allows to set a custom words requirement. Here, in this case, it limits the author to supply at least one argument. If the author doesn't provide, then it throws the provided custom error message stated in the 2<sup>nd</sup> argument of `$argsCheck[]` function.
 
 ```
-$var[Name;$replaceText[$message;$message[1];;1]]
+$var[Name;$trimSpace[$replaceText[$message;$message[1];;1]]]
 ```
-`$replaceText[]` is used here to exclude the Webhook URL...(To be continued)
+`$replaceText[]` is used here to exclude the Webhook URL from the author's message and `$trimSpace` is used for removing leading & trailing white-space characters. Then, `$var[]` is used for storing the new username.
 
 ```
 $if[$var[Name]!=]
-     $webhookUsername[$message[1];$var[Name]]
+      $webhookUsername[$message[1];$var[Name]]
 $endif
 ````
-sjsjsksms
+An if condition to check whether the author has provided a new username in the message.
+If the user have provided, then `$webhookUsername` function gets executed and changes the webhook username.
+Otherwise, the if statement gets ignored.
 
 ```
 $webhookContent[$message[1];Hello world!]
 ```
-Finally, this function is used for
+`$webhookUsername[]` is a pair-function i.e it relies on an another function to work properly, you are required to provide a webhook message/embed.
+...(Still writing)...
+To execute a normal message content webhook, use `$webhookContent[]` function or if you would like an embedded webhook, use `$webhookSend[]` function.
 
   </div>
 </details>
