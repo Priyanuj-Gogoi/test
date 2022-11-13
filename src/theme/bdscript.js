@@ -4,4 +4,4 @@ Prism.languages.bdscript = {
      }
 };
 
-Prism.languages.webmanifest = Prism.languages.bdscript;
+Prism.languages.bds = Prism.languages.bdscript;
