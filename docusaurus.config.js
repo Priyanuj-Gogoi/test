@@ -27,10 +27,7 @@ const config = {
           editUrl: 'https://github.com/priyanuj-gogoi/test/edit/main/',
           routeBasePath: '/',
           showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
-          sidebar: {
-               hideable: true
-            }
+          showLastUpdateTime: true
         },
         blog: false,
         theme: {
@@ -49,6 +46,11 @@ const config = {
           { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' }
         ],
       },
+      docs: {
+           sidebar: {
+               hideable: true
+            }
+       },
       colorMode: {
            defaultMode: 'dark',
         },
