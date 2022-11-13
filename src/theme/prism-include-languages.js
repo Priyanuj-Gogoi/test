@@ -6,8 +6,9 @@ export default function prismIncludeLanguages(PrismObject) {
   const {additionalLanguages} = prism;
 
   globalThis.Prism = PrismObject;
-  
-   require('./bdscript');
+  additionalLanguages.forEach((lang) => {
+
+    require('./bdscript');
   });
   delete globalThis.Prism;
 }
