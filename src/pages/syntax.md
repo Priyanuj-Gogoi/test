@@ -27,5 +27,5 @@ $c[This is a comment! $title <- Also, function inside comments doesn't get highl
 ### Escape Characters
 ```bds
 $nomention
-$eval[%{DOL%username - \] - Text]
+$eval[%{DOL}%username - \] - Text]
 ```
