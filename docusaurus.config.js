@@ -42,8 +42,7 @@ const config = {
         items: [
           { label: 'Changelog', to: 'changelog', position: 'left' },
           { label: 'BDScript', type: 'doc', docId: 'bdscript/intro', position: 'left' },
-          { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' },
-          { href: "https://github.com/nilpointer-software/bdfd-wiki", position: "right", className: "header-github-link", "aria-label": "GitHub repository" }
+          { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' }
         ],
       },
       colorMode: {
@@ -81,6 +80,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['bdscript'],
       },
     }),
 };
