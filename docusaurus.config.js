@@ -47,7 +47,7 @@ const config = {
         ],
        hideOnScroll: true
       },
-      image: 'https://cdn.discordapp.com/emojis/980037317353930772.png',
+      image: 'img/banner.jpg',
       colorMode: {
            defaultMode: 'dark',
         },
