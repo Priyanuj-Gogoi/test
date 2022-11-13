@@ -11,7 +11,7 @@ export default function prismIncludeLanguages(Prism) {
       ],
      'brackets': {
           'pattern': /[\[|\]]/,
-          'alias': 'object'
+          'alias': 'property'
         }
    };
 
