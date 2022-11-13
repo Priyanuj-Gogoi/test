@@ -16,7 +16,7 @@ $webhookUsername[Webhook URL;Username]
 
 ## Example
 ### Code
-```plain title="!webhook.user"
+```bds title="!webhook.user"
 $nomention
 $trimContent
 
