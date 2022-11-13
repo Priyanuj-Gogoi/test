@@ -20,7 +20,5 @@ $authorID
 
 ### Comments
 ```bds
-$c[This is a comment!
-
-$title <- Also, function inside comments doesn't get highlighted!]
+$c[This is a comment! $title <- Also, function inside comments doesn't get highlighted!]
 ```
