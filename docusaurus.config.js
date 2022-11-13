@@ -46,6 +46,7 @@ const config = {
           { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' }
         ],
       },
+      image: 'https://cdn.discordapp.com/emojis/980037317353930772.png',
       docs: {
            sidebar: {
                hideable: true
