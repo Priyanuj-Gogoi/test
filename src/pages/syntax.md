@@ -2,8 +2,6 @@
 $nomention
 Normal Text
 true (bools)
-[
-]
 ;
 %time%
 $endif
@@ -16,13 +14,19 @@ $endif
 ### Normal Function
 ```bds
 $authorID
+$author[Text;5]
+```
+
+### Brackets
+```
+[
+]
 ```
 
 ### Comments
 ```bds
 $c[This is a comment! $title <- Also, function inside comments doesn't get highlighted!]
 ```
->  I still need to Fucking fix this!!!
 
 ### Escape Characters
 ```bds
