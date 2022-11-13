@@ -6,7 +6,9 @@ Prism.languages.bdscript = {
        'pattern': /(?<=\$c\[)(?<Comment_Text>[\s\S]+)(?<!\])/,
       'lookbehind': true
     },
-  'punctuation': /(\[|\])/
+  'punctuation': {
+      'pattern': /(\[|\])/
+   }
 };
 
 Prism.languages.bds = Prism.languages.bdscript;
