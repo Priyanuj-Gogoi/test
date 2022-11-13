@@ -22,3 +22,10 @@ $authorID
 ```bds
 $c[This is a comment! $title <- Also, function inside comments doesn't get highlighted!]
 ```
+>  I still need to Fucking fix this!!!
+
+### Escape Characters
+```
+$nomention
+$eval[%{DOL%username - \] - Text]
+```
