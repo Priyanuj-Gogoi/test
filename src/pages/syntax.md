@@ -1,0 +1,12 @@
+```bdscript
+$nomention
+$if
+Text
+true
+[
+]
+;
+$authorID
+$endif
+$author[Hi;1]
+```
