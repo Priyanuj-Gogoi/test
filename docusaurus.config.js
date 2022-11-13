@@ -45,13 +45,9 @@ const config = {
           { label: 'BDScript', type: 'doc', docId: 'bdscript/intro', position: 'left' },
           { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' }
         ],
+       hideOnScroll: true
       },
       image: 'https://cdn.discordapp.com/emojis/980037317353930772.png',
-      docs: {
-           sidebar: {
-               hideable: true
-            }
-       },
       colorMode: {
            defaultMode: 'dark',
         },
