@@ -84,6 +84,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         theme: require('prism-react-renderer/themes/dracula'),
+        defaultLanguage: 'bdscript'
       },
     }),
 };
