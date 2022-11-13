@@ -6,7 +6,7 @@ export default function prismIncludeLanguages(Prism) {
        },
      'comment': /(?:\$c\[)(?<Comment_Text>[\s\S]+)(?:\])/m,
      'escape-characters': [
-           { 'pattern': /\\[\\\]\[;]/, 'alias': 'important' }
+           { 'pattern': /\\[\\\]\[;]/, 'alias': 'string' }
       ],
      'brackets': {
           'pattern': /[\[|\]]/,
