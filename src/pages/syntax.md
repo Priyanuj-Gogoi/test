@@ -1,35 +1,83 @@
+# Syntax Highlighting
+
+## Completed
+### Normal Text
 ```bds
-$nomention
-Normal Text
-true (bools)
-;
-%time%
-$endif
-$author[Hi;1]
-$if[$isSlash==true]
-    hi
-$endif
+Lol
 ```
 
-### Normal Function
+### Normal Functions
 ```bds
 $authorID
 $author[Text;5]
 ```
 
 ### Brackets
-```
+```bds
 [
 ]
 ```
 
+## In-Progress
 ### Comments
 ```bds
-$c[This is a comment! $title <- Also, function inside comments doesn't get highlighted!]
+$c[This is a comment!]
 ```
 
 ### Escape Characters
 ```bds
-$nomention
-$eval[%{DOL}%username - \] - Text]
+\]
+\;
+\\
+%{DOL}%
+%{-SEMICOL-}%
+%ESCAPED%
+```
+
+## Soon™
+### Operators (Math)
+```bds
++
+-
+*
+/
+```
+
+### Operators (Conditional)
+```bds
+!=
+==
+>
+<
+>=
+<=
+```
+
+### Bools
+```bds
+true
+false
+yes
+no
+```
+
+### Statements
+```bds
+$if
+$elseif
+$else
+$endif
+$onlyIf
+$async
+$endasync
+$await
+$try
+$catch
+$error
+$endtry
+```
+
+### Semicolons
+```bds
+;
 ```
