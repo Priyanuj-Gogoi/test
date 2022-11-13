@@ -81,3 +81,5 @@ $endtry
 ```bds
 ;
 ```
+
+And perhaps variables function too?
