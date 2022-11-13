@@ -10,7 +10,7 @@ export default function prismIncludeLanguages(Prism) {
           'alias': 'string'
         },
      'escape-characters': {
-         'pattern': /(\\(?:[;\[\]\\]*)?|%\{?(?:ESCAPED|(?:-SEMICOL-|DOL)\}?)%)/,
+         'pattern': /\\[\\\]\[;]/,
          'alias': 'important'
        }
    };
