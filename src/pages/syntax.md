@@ -14,7 +14,7 @@ $endif
 ```
 
 ### Normal Function
-```bdjs
+```bds
 $authorID
 ```
 
@@ -25,7 +25,7 @@ $c[This is a comment! $title <- Also, function inside comments doesn't get highl
 >  I still need to Fucking fix this!!!
 
 ### Escape Characters
-```
+```bds
 $nomention
 $eval[%{DOL%username - \] - Text]
 ```
