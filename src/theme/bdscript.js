@@ -1,6 +1,6 @@
 Prism.languages.bdscript = {
    'symbol': {
-        'pattern': /^\$nomention$/
+        'pattern': /\$nomention/
      }
 };
 
