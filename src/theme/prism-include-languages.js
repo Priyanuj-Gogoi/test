@@ -5,7 +5,7 @@ const prismIncludeLanguages = (Prism) => {
     require(`prismjs/components/prism-${lang}`);
   });
 
-  require('/path/to/your/prism-language-definition');
+  require('./bdscript');
 
   // ...
 };
