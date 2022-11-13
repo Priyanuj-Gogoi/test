@@ -1,5 +1,5 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const darkCodeTheme = require('prism-react-renderer/themes/oceanicNext');
 
 const config = {
   title: 'BDFD Docs',
@@ -83,7 +83,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        theme: require('prism-react-renderer/themes/dracula'),
+        theme: require('prism-react-renderer/themes/oceanicNext'),
         defaultLanguage: 'bdscript'
       },
     }),
