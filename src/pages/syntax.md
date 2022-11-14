@@ -1,85 +1,17 @@
 # Syntax Highlighting
 
-## Completed
-### Normal Text
 ```bds
-Lol
-```
-
-### Normal Functions
-```bds
+Text
+[ ] ;
 $authorID
-$author[Text;5]
+$author[Text;1]
+$authorURL[https://botdesignerdiscord.com]
+$c[Comment]
+%{-SEMICOL-}% \\ \;
++ - * /
+true false yes no
+> < != == >=
+$var $setUserVar $getUserVar
+$if $async $try
+$sendNotification
 ```
-
-### Brackets
-```bds
-[
-]
-```
-
-## In-Progress
-### Comments
-```bds
-$c[This is a comment!]
-```
-
-### Escape Characters
-```bds
-\]
-\;
-\\
-%{DOL}%
-%{-SEMICOL-}%
-%ESCAPED%
-```
-
-## Soon™
-### Operators (Math)
-```bds
-+
--
-*
-/
-```
-
-### Operators (Conditional)
-```bds
-!=
-==
->
-<
->=
-<=
-```
-
-### Bools
-```bds
-true
-false
-yes
-no
-```
-
-### Statements
-```bds
-$if
-$elseif
-$else
-$endif
-$onlyIf
-$async
-$endasync
-$await
-$try
-$catch
-$error
-$endtry
-```
-
-### Semicolons
-```bds
-;
-```
-
-And perhaps variables function too?
