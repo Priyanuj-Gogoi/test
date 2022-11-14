@@ -83,7 +83,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        theme: require('src/themes/bdscript'),
+        theme: require.resolve('./src/themes/bdscript'),
         defaultLanguage: 'bdscript'
       },
     }),
