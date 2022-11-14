@@ -83,7 +83,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        theme: require('prism-react-renderer/themes/oceanicNext'),
+        theme: require('src/themes/bdscript'),
         defaultLanguage: 'bdscript'
       },
     }),
