@@ -103,11 +103,15 @@ const theme = {
     },
     {
        types: ['url'],
-       style: { color: "rgb(217, 217, 217)", fontStyle: 'italic' }
+       style: { color: "#7B8080", fontStyle: 'italic' }
     },
     {
        types: ['operator'],
-       style: { color: "rgb(200,162,200)" }
+       style: { color: 'rgb(200,162,200)' }
+    },
+    {
+       types: ['httpFuncs'],
+       style: { color: '#8553FF' }
     }
   ],
 };
