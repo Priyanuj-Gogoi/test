@@ -33,7 +33,7 @@ const theme = {
       },
     },
     {
-      types: ["string", "url"],
+      types: ["string"],
       style: {
         color: "rgb(173, 219, 103)",
       },
@@ -91,22 +91,20 @@ const theme = {
     },
     {
       types: ["property"],
-      style: {
-        color: "rgb(128, 203, 196)",
-      },
+      style: { color: "rgb(128, 203, 196)" }
     },
     {
       types: ["namespace"],
-      style: {
-        color: "rgb(178, 204, 214)",
-      },
+      style: { color: "rgb(178, 204, 214)" }
     },
     {
       types: ['entity'],
-      style: {
-        color: "rgb(52, 160, 164)",
-      },
+      style: { color: "rgb(52, 160, 164)" }
     },
+    {
+       types: ['url'],
+       style: { color: "rgb(217, 217, 217)" }
+    }
   ],
 };
 
