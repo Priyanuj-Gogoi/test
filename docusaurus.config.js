@@ -77,7 +77,7 @@ const config = {
         copyright: `Documention currently on rewrite!!`,
       },
       prism: {
-        theme: require('./src/theme/bdfd.js'),
+        theme: require('./src/theme/bdfd.mjs'),
         darkTheme: require('prism-react-renderer/themes/dracula'),
         defaultLanguage: 'bdscript'
       },
