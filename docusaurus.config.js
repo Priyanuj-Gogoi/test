@@ -1,4 +1,4 @@
-const bdfd = require('./src/theme/bdfd.js');
+const bdfd = require('./src/theme/bdfd');
 
 const config = {
   title: 'BDFD Docs',
@@ -80,7 +80,7 @@ const config = {
       },
       prism: {
         theme: bdfd,
-        darkTheme: require('prism-react-renderer/themes/dracula'),
+        darkTheme: bdfd,
         defaultLanguage: 'bdscript'
       },
     }),
