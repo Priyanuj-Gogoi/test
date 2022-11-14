@@ -106,7 +106,7 @@ const theme = {
        style: { color: "rgb(217, 217, 217)", fontStyle: 'italic' }
     },
     {
-       types: ['operator']
+       types: ['operator'],
        style: { color: "rgb(200,162,200)" }
     }
   ],
