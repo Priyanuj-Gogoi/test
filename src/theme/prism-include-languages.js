@@ -11,7 +11,7 @@ export default function prismIncludeLanguages(Prism) {
          'alias': 'operator'
      },
      'variable': {
-          'pattern': /\$(?:[sg]et(?:Channel|(?:Us|Serv)er)?V|v)?ar\[/,
+          'pattern': /\$(?:[sg]et(?:Channel|(?:Us|Serv)er)?V|v)?ar/,
           'greedy': true
       },
      'keyword': {
