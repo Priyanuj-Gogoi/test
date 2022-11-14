@@ -101,6 +101,12 @@ var theme = {
         color: "rgb(178, 204, 214)",
       },
     },
+    {
+      types: ['entity'],
+      style: {
+        color: "rgb(52, 160, 164)",
+      },
+    },
   ],
 };
 
