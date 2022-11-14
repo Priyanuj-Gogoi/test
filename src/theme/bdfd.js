@@ -41,7 +41,7 @@ const theme = {
     {
       types: ["variable"],
       style: {
-        color: "rgb(221, 184, 146)",
+        color: "rgb(239, 71, 111)",
       },
     },
     {
