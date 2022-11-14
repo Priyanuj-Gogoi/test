@@ -1,3 +1,5 @@
+const bdfd = require('./src/theme/bdfd.js');
+
 const config = {
   title: 'BDFD Docs',
   tagline: 'Documention of BDFD Functions, Callbacks, Features etc.',
@@ -77,7 +79,7 @@ const config = {
         copyright: `Documention currently on rewrite!!`,
       },
       prism: {
-        theme: require('./src/theme/bdfd.mjs'),
+        theme: bdfd,
         darkTheme: require('prism-react-renderer/themes/dracula'),
         defaultLanguage: 'bdscript'
       },
