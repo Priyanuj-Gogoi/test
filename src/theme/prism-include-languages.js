@@ -2,7 +2,7 @@ export default function prismIncludeLanguages(Prism) {
 
   Prism.languages.bdscript = {
      'variables': {
-          'pattern': /\$(?:[sg]et(?:Channel|(?:Us|Serv)er)?V|v)?ar/,
+          'pattern': /\$(?:[sg]et(?:Channel|(?:Us|Serv)er)?V|v)?ar\[/,
           'greedy': true
       },
      'keyword': {
