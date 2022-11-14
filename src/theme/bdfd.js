@@ -33,6 +33,10 @@ const theme = {
       },
     },
     {
+       types: ['httpFuncs'],
+       style: { color: '#8553FF' }
+    },
+    {
       types: ["string"],
       style: {
         color: "rgb(173, 219, 103)",
@@ -103,16 +107,12 @@ const theme = {
     },
     {
        types: ['url'],
-       style: { color: "#7B8080", fontStyle: 'italic' }
+       style: { color: "#619BF3", fontStyle: 'italic' }
     },
     {
        types: ['operator'],
        style: { color: 'rgb(200,162,200)' }
     },
-    {
-       types: ['httpFuncs'],
-       style: { color: '#8553FF' }
-    }
   ],
 };
 
