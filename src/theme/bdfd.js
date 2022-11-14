@@ -78,7 +78,7 @@ const theme = {
       },
     },
     {
-      types: ["tag", "operator", "keyword"],
+      types: ["tag", "keyword"],
       style: {
         color: "rgb(127, 219, 202)",
       },
@@ -103,7 +103,11 @@ const theme = {
     },
     {
        types: ['url'],
-       style: { color: "rgb(217, 217, 217)" }
+       style: { color: "rgb(217, 217, 217)", fontStyle: 'italic' }
+    },
+    {
+       types: ['operator']
+       style: { color: "rgb(200,162,200)" }
     }
   ],
 };
