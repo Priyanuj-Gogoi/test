@@ -1,7 +1,7 @@
 var theme = {
   plain: {
     color: "#d6deeb",
-    backgroundColor: "#011627",
+    backgroundColor: "#292d3e",
   },
   styles: [
     {
