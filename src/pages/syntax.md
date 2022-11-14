@@ -16,9 +16,19 @@ $if $async $try
 $sendNotification
 
 $if[$var[a]>=100]
-     $message[hi\]]
+      $sendMessage[hi\]]
       $roleGrant[$authorID;+$roleID[a]]
 $endif
 
 $calculate[(1+2+3+4+5)/25]
+
+$httpGet[https://wtfismyip.com]
+$httpPost
+$httpGetHeader
+$httpAddHeader
+$httpPut
+$httpPatch
+$httpDelete
+$httpResult
+$httpStatus
 ```
