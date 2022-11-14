@@ -16,6 +16,7 @@ $if $async $try
 $sendNotification
 
 $if[$var[a]>=100]
+     $message[hi\]]
       $roleGrant[$authorID;+$roleID[a]]
 $endif
 
