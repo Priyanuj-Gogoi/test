@@ -99,7 +99,7 @@ const theme = {
     },
     {
       types: ['entity'],
-      style: { color: "rgb(52, 160, 164)" }
+      style: { color: "#FF6E6E" }
     },
     {
        types: ['url'],
