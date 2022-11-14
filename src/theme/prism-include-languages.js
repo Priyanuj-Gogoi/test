@@ -1,3 +1,8 @@
+// BDScript Syntax Definition RegEx
+// Author: Priyanuj Gogoi
+// Copyright © 2022
+
+
 export default function prismIncludeLanguages(Prism) {
 
   Prism.languages.bdscript = {
