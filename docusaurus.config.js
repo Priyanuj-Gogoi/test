@@ -49,10 +49,9 @@ const config = {
            defaultMode: 'dark',
         },
       metadata : [
-        { name: 'og:title', content: 'BDFD Docs' },
+        { name: 'og:title', content: 'Bot Designer for Discord • Documention' },
         { name: 'og:description', content: 'Unofficial documention of BDFD functions,  callbacks, features etc.' },
         { name: 'og:url', content: 'https://priyanuj.gogoi.github.io/test' },
-        { name: 'og:type', content: 'website' },
         { name: 'theme-color', content: '#748bd4' }
       ],
       footer: {
