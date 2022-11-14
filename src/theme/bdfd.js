@@ -1,4 +1,4 @@
-var theme = {
+const theme = {
   plain: {
     color: "#d6deeb",
     backgroundColor: "#292d3e",
@@ -41,7 +41,7 @@ var theme = {
     {
       types: ["variable"],
       style: {
-        color: "rgb(214, 222, 235)",
+        color: "rgb(221, 184, 146)",
       },
     },
     {
