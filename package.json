@@ -1,6 +1,7 @@
 {
-  "name": "my-website",
+  "name": "bdfd-wiki",
   "version": "0.0.0",
+  "author": "Priyanuj Gogoi",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
