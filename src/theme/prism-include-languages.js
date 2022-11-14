@@ -7,7 +7,7 @@ export default function prismIncludeLanguages(Prism) {
           'greedy': true
       },
      'conditionalOperator': {
-         'pattern': /(?:==|[<>!]=|<|>)/,
+         'pattern': /(?:[=!]=|[<>]=?)/,
          'alias': 'operator'
      },
      'variable': {
