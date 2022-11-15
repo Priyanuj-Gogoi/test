@@ -41,8 +41,13 @@ const config = {
         title: 'Bot Designer For Discord',
         items: [
           { label: 'Changelog', to: 'changelog', position: 'left' },
+          { label: 'Getting Started', type: 'doc', docId: 'bdscript/intro', position: 'left' },
+          { label: 'Callbacks', type: 'doc', docId: 'bdscript/intro', position: 'left' },
+          { label: 'Premium', type: 'doc', docId: 'bdscript/intro', position: 'left' },
           { label: 'BDScript', type: 'doc', docId: 'bdscript/intro', position: 'left' },
-          { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' }
+          { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' },
+          { label: 'Guides', type: 'doc', docId: 'bdscript/intro', position: 'left' },
+          { label: 'Resources', type: 'doc', docId: 'bdscript/intro', position: 'left' },
         ],
        hideOnScroll: true
       },
