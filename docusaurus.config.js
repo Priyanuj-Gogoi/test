@@ -36,7 +36,7 @@ const config = {
       }),
     ],
   ],
-  plugins: [['docusaurus-plugin-openapi-docs']],
+  plugins: [['docusaurus-plugin-openapi-docs', { id: 'open-api', docsPluginId: 'classic', }]],
   themeConfig:
     ({
       navbar: {
