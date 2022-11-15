@@ -148,13 +148,13 @@ hide_table_of_contents: false
 - Saving a command no longer causes the bot to restart
 - Fixed `$noMentionMessage[]` in BDScript 2
 - Added `$timeout[]` and `$untimeout[]`
-- `$mute[]` and `$unmute[]` has been marked as deprecated
+- Deprecated `$mute[]` and `$unmute[]`
 - Added `guildID` argument to `$getUserVar[]` and `$setUserVar[]`
-- Fixed the issue with some bots not starting with invalid intents enabled
+- Fixed an issue with some bots not starting with invalid intents enabled
 - Fixed the role cache
 - Slash command's option description is now required
 - Added `$shardID[]`
-- Added sharding
+- Added sharding for premium bots
 - Improved interaction handling
 - Added `$defer`
 - Fixed getting invites
@@ -164,7 +164,7 @@ hide_table_of_contents: false
 - Fixed removing custom images
 - Added missing permissions
 - Fixed unintentional server restarts
-- The last argument in `$replaceText[]` is now optional
+- Made last argument in `$replaceText[]` optional
 
 ### November 2021
 - Added `$reply[]`
@@ -179,7 +179,7 @@ hide_table_of_contents: false
 - `$addReactions[]` now works in slash commands
 - `$dm[]` now can dm to more than one mention and can be used multiple times
 - `$dm` now can be used with `$dm[]`
-- `$random[]` now can use decimals
+- Made `$random[]` to support decimals
 - Added `$'randomChannelID` (BDScript Unstable only)
 - Fixed `$textSplit[]` removing space
 
@@ -193,6 +193,7 @@ hide_table_of_contents: false
 - Made it possible to use empty labels in the buttons
 - New UI
 - Added search bar in the variables section
+- Made `BDScript 2` as default scripting language in the app
 - Made it possible to use `https://youtu.be/` URL in the streaming statuses
 - Added `$getTextSplitIndex[]`
 - Added `$serverChannelExists[]`
@@ -287,13 +288,13 @@ hide_table_of_contents: false
 - Fixed `$sendMessage[]` not working in normal BDScript
 - Fixed `$checkUserPerms[]`
 - Added `BDScript 2` script language
-- Added `$try` **(Only for BDScript 2)**
-- Added `$catch` **(Only for BDScript 2)**
-- Added `$error` **(Only for BDScript 2)**
-- Added `$eval[]` **(Only for BDScript 2)**
-- Added `$optOff[]` **(Only for BDScript 2)**
-- Added `$stop[]` **(Only for BDScript 2)**
-- Added `$var[]` **(Only for BDScript 2)**
+- Added `$try` **(only for BDScript 2)**
+- Added `$catch` **(only for BDScript 2)**
+- Added `$error` **(only for BDScript 2)**
+- Added `$eval[]` **(only for BDScript 2)**
+- Added `$optOff[]` **(only for BDScript 2)**
+- Added `$stop[]` **(only for BDScript 2)**
+- Added `$var[]` **(only for BDScript 2)**
 - Added custom code highlighting
 - Fixed `$lowestRole` and `$highestRole`
 - Added `$isBoolean[]`
