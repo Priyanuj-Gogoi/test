@@ -28,7 +28,7 @@ export default function prismIncludeLanguages(Prism) {
          'alias': 'operator'
      },
      'variable': {
-          'pattern': /\$(?:[sg]et(?:Channel|(?:Us|Serv)er)?V|v)?ar/,
+          'pattern': /(?:\$(?:[sg]et(?:Chan{2}el|(?:Us|Serv)er)?V|v)?ar)/,
           'greedy': true
       },
      'httpFuncs': {
