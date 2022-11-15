@@ -82,7 +82,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Documention currently on rewrite!!`,
+        copyright: `Copyright © ${ new Date().getFullYear() } NilPointer-Software\nMade with ♥`,
       },
       prism: {
         theme: bdfd,
@@ -90,8 +90,8 @@ const config = {
         defaultLanguage: 'bdscript'
       },
       announcementBar: {
-         backgroundColor: '#90E0EF',
-         content: `Need Help? Join us in our Official <a target="_blank" title="Bot Designer For Discord Official Server" rel="noopener noreferrer" href="${discord}">Discord Server</a>!`
+         backgroundColor: '#CAF0F8',
+         content: `Need Help? Join us in our official <a target="_blank" title="Bot Designer For Discord Official Server" rel="noopener noreferrer" href="${discord}">Discord server</a>!`
       }
     }),
 };
