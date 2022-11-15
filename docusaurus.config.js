@@ -88,6 +88,9 @@ const config = {
         darkTheme: bdfd,
         defaultLanguage: 'bdscript'
       },
+      announcementBar: {
+         content: 'Need Help? Join us in our Official Discord Support Server'
+      }
     }),
 };
 
