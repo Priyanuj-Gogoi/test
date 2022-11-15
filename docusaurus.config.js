@@ -1,4 +1,5 @@
 const bdfd = require('./src/theme/bdfd');
+const discord = 'https://discord.com/servers/bot-designer-for-discord-official-server-566363823137882154';
 
 const config = {
   title: 'BDFD Docs',
@@ -67,7 +68,7 @@ const config = {
           {
             title: 'Community',
             items: [
-              { label: 'Discord', href: 'https://discord.com/servers/bot-designer-for-discord-official-server-566363823137882154' },
+              { label: 'Discord', href: discord },
               { label: 'Reddit', href: 'https://www.reddit.com/r/DiscordBotDesigner/' },
             ],
           },
@@ -89,7 +90,7 @@ const config = {
         defaultLanguage: 'bdscript'
       },
       announcementBar: {
-         content: 'Need Help? Join us in our Official Discord Support Server'
+         content: `Need Help? Join us in our Official <a target="_blank" title="Bot Designer For Discord Official Server" rel="noopener noreferrer" href="${discord}">Discord Server</a>!`
       }
     }),
 };
