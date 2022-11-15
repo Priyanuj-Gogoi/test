@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbdfd_wiki=self.webpackChunkbdfd_wiki||[]).push([[280],{8749:t=>{t.exports=JSON.parse('{"title":"Functions","slug":"/category/functions-1","permalink":"/category/functions-1","navigation":{"previous":{"title":"Objects","permalink":"/javascript/objects"},"next":{"title":"ban","permalink":"/javascript/functions/ban"}}}')}}]);

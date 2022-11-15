@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbdfd_wiki=self.webpackChunkbdfd_wiki||[]).push([[985],{599:t=>{t.exports=JSON.parse('{"title":"Functions","slug":"/category/functions","permalink":"/test/category/functions","navigation":{"previous":{"title":"intro","permalink":"/test/bdscript/intro"},"next":{"title":"$webhookUsername","permalink":"/test/bdscript/functions/webhookUsername"}}}')}}]);
