@@ -368,34 +368,36 @@ hide_table_of_contents: false
 - Fixed loading bots from database
 - Increased duration to 40 minutes for `$deleteIn[]`, `$editIn[]`, `$editEmbedIn[]`, `$replyIn[]`
 - Added if statements (`$if[]`, `$else`, `$endif`)
-- GuildID instead of `everyone` is now returned in `$lowestRole[]` and `$highestRole[]`
-- Space commands have been removed (you can still use `$alwaysReply`)
+- Guild ID instead of `everyone` is now returned in `$lowestRole[]` and `$highestRole[]`
+- Removed space commands *(you can still use `$alwaysReply`)*
 - Added `$channelTopic[]`
 - Fixed issues with streaming status
-- Fixed the issue with tags/discriminators not working for `$userID[]` and `$findUser[]` 
-- Added `$findChannel[]` and `$channelExists[]`
-- Added `$userJoined[]` and `$userJoinedDiscord[]`
+- Fixed an issue with tag/discriminator not working for `$userID[]` and `$findUser[]` 
+- Added `$findChannel[]`
+- Added `$channelExists[]`
+- Added `$userJoined[]`
+- Added `$userJoinedDiscord[]`
 
 ---
 
 ### December 2020
-- Timezones in `$time[]` has been fixed
-- Updated discord API version
-- Added Competing presence
+- Fixed timezones in `$time[]`
+- Updated Discord API version
+- Added `Competing` presence
 - Added `$botLeave[]`
-- Fix for `$getLeaderboardValue[]`
-- Added userID option to reset user var
-- Added serverID option to `$serverOwner`
+- Fixed `$getLeaderboardValue[]`
+- Added `userID` option to `$resetUserVar[]`
+- Added `serverID` option to `$serverOwner`
 - Added `$premiumExpireTime`
 
 ### November 2020
 - Fixed disappearing bot status
 - Fixed `$serverCount` in bot status
 - Improved caching
-- Functions that require privileged intents are now marked accordingly 
+- Functions which require privileged intents are now marked in the app
 - Added `$getLeaderboardValue[]`
 - Added `$awaitReactions[]`
-- Awaited commands are now available for everyone
+- Made awaited commands available for everyone
 - Added awaited reactions
 - Fixed problems with DMs
 
@@ -409,50 +411,51 @@ hide_table_of_contents: false
 - Fixed `$randomMention`, `$randomUser` and `$randomUserID`
 - Added `$awaitReactions[]` for premium bots
 - Added `$usedEmoji`
-- `$deletecommand` sends an error now
+- Added errors to `$deletecommand`
 - Fixed `$serverVerificationLvl` not working on very high verification servers
 - Fixed reconnecting bots to gateway
 
 ### September 2020
 - Added `$ignoreTriggerCase` for premium bots
 - Fixed caching guilds
-- `$findUser[]` & `$findRole[]` are no longer case sensitive
-- `$findUser[]` returns authorID if no user found
+- Made `$findUser[]` & `$findRole[]` case insensitive
+- Made `$findUser[]` to return author's ID, if no user found
 - Added awaited commands for premium bots
 - Fixed weird brackets in embeds
 - Added trigger list in the app
 
 ### August 2020
-- Migrated to the new infrastructure (new database and API)
+- Migrated to the new infrastructure *(new database and API)*
 - Premium released
 - Fixed `$isMentionable[]`
 - Fixed `$isHoisted[]`
 - Added `$removeSplitTextElement[]`
-- `$userAvatar[]` no longer stops code execution
+- Fixed `$userAvatar[]` no longer stops code execution
 - Fixed `$argCount[]`
 - Added `$findUser[]`
 - Added `$findRole[]`
 - Added `$disableSpecialEscaping`
 
 ### July 2020
-- Renamed `$splitText[]` to `$getSplitText[]` to avoid confusion _(`$splitText[]` still works)_
+- Renamed `$splitText[]` to `$getSplitText[]` to avoid confusion *(`$splitText[]` still works)*
 - Added `$joinSplitText[]`
 - Added `$getInviteInfo[]`
 - Added `$guildID[]`
 - Fixed `$numberSeparator[]` in the bot's status
-- `$roleID[]` and `$channelID[]` no longer stop code execution
+- Fixed `$roleID[]` and `$channelID[]` to no longer stop code execution
 - Enabled BDScript Unstable for callbacks
 - Added `$getTextSplitLength`
 
 ### June 2020
 - Fixed `$getReactions[]` in BDScript Unstable
 - Fixed bracket escaping for some commands in BDScript Unstable
-- Fixed `$modifyChannel[]` (random slowmodes added on channels)
+- Fixed `$modifyChannel[]` *(random slowmodes added on channels)*
 
 ### May 2020
 - Fixed `$onlyBotPerms[]`
 - Bot Designer List Open Beta
-- Added `$botListDescription[]` and `$botListHide`
+- Added `$botListDescription[]`
+- Added `$botListHide`
 - Fixed brackets issue in `$serverNames`
 - Other bug fixing for Bot Designer and Bot Designer List
 
@@ -462,7 +465,7 @@ hide_table_of_contents: false
 - Disabled `$randomUserID`, `$'randomUserID`, `$deleteIn` and `$dm` in `$onMessageDelete`
 - Fixed `$addField[]`
 - Added error message in `$getServerVar[]` when provided variable does not exist
-- `$userID[]` does not stop code execution if user is not found
+- Fixed `$userID[]` to not stop code execution, if user is not found
 - Added `$botLeave`
 - Removed permission check from `$clear` command.
 - Fixed `$isAdmin[]`
@@ -581,5 +584,7 @@ hide_table_of_contents: false
 ### November 2019
 - Added `$rolePosition[]`
 - Released translation strings to volunteers
-- Added `kick()` and `ban()` to JS
+- Added to JS
+    - `kick()`
+    - `ban()`
 - Released new stable version
