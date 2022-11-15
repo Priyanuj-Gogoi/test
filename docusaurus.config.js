@@ -63,6 +63,11 @@ const config = {
         { name: 'theme-color', content: '#748bd4' }
       ],
       footer: {
+        logo: {
+           alt: 'NilPointer Software Logo',
+           src: 'https://github.com/nilpointer-software.png',
+           href: 'https://nilpointersoftware.com'
+        },
         style: 'dark',
         links: [
           {
@@ -82,7 +87,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${ new Date().getFullYear() } NilPointer-Software\nMade with ♥`,
+        copyright: `Copyright © ${ new Date().getFullYear() } NilPointer Software`,
       },
       prism: {
         theme: bdfd,
