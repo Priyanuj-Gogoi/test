@@ -66,7 +66,7 @@ const config = {
         logo: {
            alt: 'NilPointer Software Logo',
            src: 'img/nilpointer_software.png',
-           href: 'https://nilpointersoftware.com'
+           href: 'https://nilpointer.software'
         },
         style: 'dark',
         links: [
