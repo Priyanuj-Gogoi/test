@@ -1,6 +1,6 @@
 ---
 title: Changelog
-description: Check the progress/changes we make every month here.
+description: Stay Check the progress/changes we make every month here.
 hide_table_of_contents: false
 ---
 
@@ -468,10 +468,12 @@ hide_table_of_contents: false
 - Fixed `$isAdmin[]`
 
 ### March 2020
-- Added `$getReactions[]` and `$userReacted[]`
+- Added `$getReactions[]`
+- Added `$userReacted[]`
 - New command interpreter
 - Added to new parser:
-    - `$'random[]` and `$'random`
+    - `$'random`
+    - `$'random[]`
     - `$'randomText[]`
     - `$'randomUser`
     - `$'randomMention`
@@ -485,13 +487,12 @@ hide_table_of_contents: false
 - Fixed adding slowmode when using `$modifyChannel[]`
 - Added `$checkContains[]`
 - Added `$addEmoji[]`
-- Fixed the bug with `$` command prefix and `$noMentionMessage`
 - Added `$unbanID[]`
 - Added `$hasRole[]`
 - Optimized the leaderboard commands
 - Fixed permissions in some commands
 - Fixed `$onlyPerms[]`
-- Fixed the bug with `$` command prefix and `$message`
+- Fixed a bug with `$` in command prefix, `$message`, and `$noMentionMessage`
 
 ### February 2020
 - Fixed errors in `$addField`
@@ -502,18 +503,18 @@ hide_table_of_contents: false
 - Added `$isHoisted[]`
 - Added `$serverIcon[]`
 - Fixed suppressing errors in some variable commands
-- Fixed bug with `$replaceText[]()` inside `$description`
+- Fixed bug with `$replaceText[]` inside `$description`
 - Added `$isValidHex[]`
 - Added `$isAdmin[]`
-- `$userID[]` does not require discriminator now
+- Made `$userID[]` to not require discriminator
 - Added `$serverVerificationLvl`
 - Fixed stopping command when `$changeUsernameWithID[]` or `$changeUsername[]` throws an exception
 - Added `$modifyRolePerms[]`
 - Added `$isUserDMEnabled[]`
 - Added new option to `$mentioned[]`
-- When userID is not provided in `$discriminator[]`, the author's ID will be used
+- Made `$discriminator[]` to use author's ID, if `userID` is not provided
 - Added `$argCount[]`
-- Added `$roleExists[]` and `$roleExists[]` 
+- Added `$roleExists[]`
 - Added `$varExistError[]`
 - Removed permissions check for `$kick[]` function
 - Fixed brackets issue in `$message` and `$noMentionMessage`
@@ -538,15 +539,16 @@ hide_table_of_contents: false
 - Fixed problems with timezones
 - `@everyone` role shows up now when it's a highest/lowest role in `$highestRole/$lowestRole`
 - `@everyone` role now works in `$rolePosition[]`
-- Multiline for `$replaceText[]`
+- Multiline support for `$replaceText[]`
 - Fixed no errors in `$roleID[]`
-- Added `$toUppercase[]` and `$toLowercase[]`
-- Added roleID and userID to `$modifyChannelPerms[]`
+- Added `$toUppercase[]`
+- Added `$toLowercase[]`
+- Added `roleID` and `userID` to `$modifyChannelPerms[]`
 - Added `$authorOfMessage[]`
 - Added `$userID[]`
 - Improved servers response time by over 10x
 - Fixed issues with `$setServerVar[]` and `$setUserVar[]`
-- Added multiline support for `$textSplit[]`
+- Multiline support for `$textSplit[]`
 - Fixed brackets in `$username`
 
 ---
@@ -554,23 +556,24 @@ hide_table_of_contents: false
 ### December 2019
 - Fixed high ping issues
 - Fixed whole bunch of other issues
-- Added `authorId` to JS
-- Added `channelId` to JS
-- Added `userMentions` to JS
-- Added `roleMentions` to JS
-- Added `unban()` to JS
-- Added `takeRole()` to JS
-- Added `giveRole()` to JS
-- Added `channelTyping()` to JS
-- Added `createChannel()` to JS
-- Added `removeChannel()` to JS
-- Added `unpinMessage()` to JS
-- Added `banWithReason()` to JS
-- Added `kickWithReason()` to JS
-- Added `removeRole()` to JS
-- Added `createRole()` to JS
-- Created status website https://status.botdesignerdiscord.com
-- Web version of *Bot Designer for Discord* has been moved to new address https://botdesignerdiscord.com
+- Added to JS
+    - `authorId`
+    - `channelId`
+    - `userMentions`
+    - `roleMentions`
+    - `unban()`
+    - `takeRole()`
+    - `giveRole()`
+    - `channelTyping()`
+    - `createChannel()`
+    - `removeChannel()`
+    - `unpinMessage()`
+    - `banWithReason()`
+    - `kickWithReason()`
+    - `removeRole()`
+    - `createRole()`
+- Created status website *([https://status.botdesignerdiscord.com](https://botdesignerdiscord.com/status))*
+- Web version of **Bot Designer for Discord** has been moved to new address *(https://botdesignerdiscord.com)*
 - Fixed some issues in web version
 - Fixed `$banID[]`
 - Preparations for premium points
