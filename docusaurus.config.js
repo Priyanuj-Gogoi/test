@@ -38,7 +38,7 @@ const config = {
   themeConfig:
     ({
       navbar: {
-        title: 'Bot Designer For Discord',
+        title: 'Bot Designer for Discord',
         items: [
           { label: 'Changelog', to: 'changelog', position: 'left' },
           { label: 'Getting Started', type: 'doc', docId: 'bdscript/intro', position: 'left' },
