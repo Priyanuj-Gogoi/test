@@ -107,7 +107,8 @@ const theme = {
     },
     {
        types: ['url'],
-       style: { color: "#619BF3", fontStyle: 'italic' }
+       style: { color: "#619BF3", fontStyle: 'italic' },
+       languages: ['bdscript']
     },
     {
        types: ['operator'],
