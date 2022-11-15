@@ -6,9 +6,7 @@ hide_table_of_contents: false
 
 # Changelog
 
-## 2022
-
-### November
+### November 2022
 - Deprecated `$userJoinedDiscord[]` in favor of `$creationDate[]`
 - Added `Format` argument to `$creationDate[]`
 - Added `$editSplitText[]`
@@ -18,7 +16,7 @@ hide_table_of_contents: false
 - Added `$resetChannelVar[]`
 - Added `channel` option to `$variablesCount[]`
 
-### October
+### October 2022
 - Added `$publishMessage[]`
 - Made `$useChannel[]` work with message components
 - Added `$channelPosition[]`
@@ -38,7 +36,7 @@ hide_table_of_contents: false
 - Fixed the guild list fetching issue
 - Added `$parentID`
 
-### September
+### September 2022
 - Added `channelID` field to `$awaitFunc[]`
 - Added `$trimContent`
 - Fixed fetching guilds not always working in the app
@@ -55,7 +53,7 @@ hide_table_of_contents: false
 - Fixed some callbacks not being detected as callbacks
 - Fixed attachments not working in slash commands
 
-### August
+### August 2022
 - Added `$scriptLanguage`
 - Fixed `$stop` breaking `$if[]`
 - Renamed `$customImage[]` argument to `Custom image tag`
@@ -71,7 +69,7 @@ hide_table_of_contents: false
 - Fixed `$cropText[]` not supporting unicode
 - Not putting required slash command options on top no longer breaks the commands
 
-### July
+### July 2022
 - Added hex to the color picker
 - Fixed `$executionTime` not working inside embed fields
 - App now sends notification when bot hosting is expired
@@ -81,13 +79,13 @@ hide_table_of_contents: false
 - Fixed verification of slash command names
 - Fixed `$sort` not working with `-1` as return amount
 
-### June
+### June 2022
 - Fixed `$onlyBotChannelPerms[]`
 - Fixed description verification in `$addSelectMenuOption[]` and `$editSelectMenuOption[]`
 - Updated limits of select menu options
 - Fixed updating components which are refering to `$messageID`
 
-### May
+### May 2022
 - Fixed token issues
 - Fixed disappearing slash command options
 - `AllowedMentions` field is now used in `$channelSendMessage[]`, `$sendEmbedMessage[]` and `$sendMessage[]`
@@ -98,11 +96,11 @@ hide_table_of_contents: false
 - Fixed empty values in variables not getting saved
 - Fixed userID being ignored when guildID was passed to `$getUserVar[]`
 
-### April
+### April 2022
 - Added `"return ID of the ticket message"` argument to `$newTicket[]`
 - Fixed disappearing slash commands from the app's state
 
-### March
+### March 2022
 - Added `$toTitleCase[]`
 - Fixed invite permission calculator
 - Fixed `$suppressErrors[]` and `$embedSuppressErrors[]` getting ignored by components errors
@@ -111,7 +109,7 @@ hide_table_of_contents: false
 - Added `$unregisterGuildCommands[]`
 - Added `/callback_list`, `/callback_tag_list`, and `/callback/:callback_tag` endpoints to public BDFD API
 
-### February
+### February 2022
 - `$httpResult[]` can return JSON now
 - Fixed `$httpResult[]` not working with multiple requests
 - Saving a command in the webapp no longer restarts the bots
@@ -130,7 +128,7 @@ hide_table_of_contents: false
 - Added `$autoCompleteOptionValue`
 - Added `$appendOptionSuggestion[]`
 
-### January
+### January 2022
 -  Added `$unescape[]`
 -  Added a neutral permission (`/<perm>`) to `$modifyChannelPerms[]`
 -  Added stop bot button in the app
@@ -144,9 +142,9 @@ hide_table_of_contents: false
 -  Added public BDFD API
 -  Added `$serverDescription[]`
 
-## 2021
+---
 
-### December
+### December 2021
 - Saving a command no longer causes the bot to restart
 - Fixed `$noMentionMessage[]` in BDScript 2
 - Added `$timeout[]` and `$untimeout[]`
@@ -168,7 +166,7 @@ hide_table_of_contents: false
 - Fixed unintentional server restarts
 - The last argument in `$replaceText[]` is now optional
 
-### November
+### November 2021
 - Added `$reply[]`
 - Added `$trimSpace[]`
 - Added `$url[]`
@@ -185,7 +183,7 @@ hide_table_of_contents: false
 - Added `$'randomChannelID` (BDScript Unstable only)
 - Fixed `$textSplit[]` removing space
 
-### October
+### October 2021
 - Added `$deleteMessage[]`
 - Added `$hostingExpireTime[]`
 - Added timestamp option to `$premiumExpireTime`
@@ -204,7 +202,7 @@ hide_table_of_contents: false
 - Fixed `$deletecommand` not getting catched by `$try` block
 - Made it possible to open function's wiki article from the functions list
 
-### September
+### September 2021
 - Updated ToS
 - Fixed `$executionTime` not working in embeds
 - Added `$botNode`
@@ -218,7 +216,7 @@ hide_table_of_contents: false
 - Added `$serverNames[]`
 - Improved variables lookup time
 
-### August
+### August 2021
 - Added `$webhookTitle[]`
 - Added `$webhookDescription[]`
 - Added `$webhookFooter[]`
@@ -253,7 +251,7 @@ hide_table_of_contents: false
 - Fixed condition parsing in `$if[]` for the normal BDScript and BDScript Unstable (BDScript 2 didn't have any issues)
 - Made command saving faster
 
-### July
+### July 2021
 - Added `$getTimestamp`
 - Added support for decimals in the math functions
 - Added `$newSelectMenu[]`
@@ -284,7 +282,7 @@ hide_table_of_contents: false
 - Added `$guildExists[]`
 - Fixed `$serverVerificationLvl`
 
-### June
+### June 2021
 - Fixed `$sendMessage[]` not working in normal BDScript
 - Fixed `$checkUserPerms[]`
 - Added `BDScript 2` script language
@@ -313,7 +311,7 @@ hide_table_of_contents: false
 - Added `$httpAddHeader[]`
 - Added `$httpRemoveHeader[]`
 
-### May
+### May 2021
 - Fixed a bug which allowed executing certain types of callbacks as normal commands
 - Fixed member caching issue
 - Fixed caching bots
@@ -326,13 +324,13 @@ hide_table_of_contents: false
 - Fixed some issues with slash commands
 - Added `$c[]` which can be used for commenting your code
 
-### April
+### April 2021
 - Added `$httpGet[]`, `$httpPost[]`, `$httpPut[]`, `$httpDelete[]` and `$httpPatch[]`
 - Improved overall caching
 - Added `$httpResult[]`
 - Made command execution faster
 
-### March
+### March 2021
 - Added `$cropText[]`
 - Added `userID` field to `$awaitFunc[]`
 - Fixed removing normal commands and slash commands
@@ -353,7 +351,7 @@ hide_table_of_contents: false
 - Fixed some issues with `[` and `]`
 - Fixed problems with slash commands and cooldowns
 
-### February
+### February 2021
 - Added `$sendMessage[]`
 - Added `$reply`
 - Added slash commands
@@ -364,7 +362,7 @@ hide_table_of_contents: false
 - Added new optional field to `$message[]`
 - Fixed semicolons in `$channelSendMessage[]`
 
-### January
+### January 2021
 - Fixed the problem with statuses not showing up
 - Fixed the issue with mentions not working
 - Fixed loading bots from database
@@ -378,9 +376,9 @@ hide_table_of_contents: false
 - Added `$findChannel[]` and `$channelExists[]`
 - Added `$userJoined[]` and `$userJoinedDiscord[]`
 
-## 2020
+---
 
-### December
+### December 2020
 - Timezones in `$time[]` has been fixed
 - Updated discord API version
 - Added Competing presence
@@ -390,7 +388,7 @@ hide_table_of_contents: false
 - Added serverID option to `$serverOwner`
 - Added `$premiumExpireTime`
 
-### November
+### November 2020
 - Fixed disappearing bot status
 - Fixed `$serverCount` in bot status
 - Improved caching
@@ -401,7 +399,7 @@ hide_table_of_contents: false
 - Added awaited reactions
 - Fixed problems with DMs
 
-### October
+### October 2020
 - Optimized memory usage
 - Added member and presence intents
 - Added `$editEmbedIn[]`
@@ -415,7 +413,7 @@ hide_table_of_contents: false
 - Fixed `$serverVerificationLvl` not working on very high verification servers
 - Fixed reconnecting bots to gateway
 
-### September
+### September 2020
 - Added `$ignoreTriggerCase` for premium bots
 - Fixed caching guilds
 - `$findUser[]` & `$findRole[]` are no longer case sensitive
@@ -424,7 +422,7 @@ hide_table_of_contents: false
 - Fixed weird brackets in embeds
 - Added trigger list in the app
 
-### August
+### August 2020
 - Migrated to the new infrastructure (new database and API)
 - Premium released
 - Fixed `$isMentionable[]`
@@ -436,7 +434,7 @@ hide_table_of_contents: false
 - Added `$findRole[]`
 - Added `$disableSpecialEscaping`
 
-### July
+### July 2020
 - Renamed `$splitText[]` to `$getSplitText[]` to avoid confusion _(`$splitText[]` still works)_
 - Added `$joinSplitText[]`
 - Added `$getInviteInfo[]`
@@ -446,19 +444,19 @@ hide_table_of_contents: false
 - Enabled BDScript Unstable for callbacks
 - Added `$getTextSplitLength`
 
-### June
+### June 2020
 - Fixed `$getReactions[]` in BDScript Unstable
 - Fixed bracket escaping for some commands in BDScript Unstable
 - Fixed `$modifyChannel[]` (random slowmodes added on channels)
 
-### May
+### May 2020
 - Fixed `$onlyBotPerms[]`
 - Bot Designer List Open Beta
 - Added `$botListDescription[]` and `$botListHide`
 - Fixed brackets issue in `$serverNames`
 - Other bug fixing for Bot Designer and Bot Designer List
 
-### April
+### April 2020
 - Fixed `$serverIcon`
 - Added `$changeCooldownTime[]`
 - Disabled `$randomUserID`, `$'randomUserID`, `$deleteIn` and `$dm` in `$onMessageDelete`
@@ -469,7 +467,7 @@ hide_table_of_contents: false
 - Removed permission check from `$clear` command.
 - Fixed `$isAdmin[]`
 
-### March
+### March 2020
 - Added `$getReactions[]` and `$userReacted[]`
 - New command interpreter
 - Added to new parser:
@@ -495,7 +493,7 @@ hide_table_of_contents: false
 - Fixed `$onlyPerms[]`
 - Fixed the bug with `$` command prefix and `$message`
 
-### February
+### February 2020
 - Fixed errors in `$addField`
 - Added `$serverRegion`
 - Added `$serverOwner`
@@ -522,7 +520,7 @@ hide_table_of_contents: false
 - Fixed `$globalUserLeaderboard[]`
 - `$repeatMessage[]` won't send an error when there is `0` provided
 
-### January
+### January 2020
 - Final premium preparations
 - Space commands for premium bots
 - Added `sendChannelMessage()` to JS
@@ -551,34 +549,33 @@ hide_table_of_contents: false
 - Added multiline support for `$textSplit[]`
 - Fixed brackets in `$username`
 
-## 2019
+---
 
-### December
+### December 2019
 - Fixed high ping issues
 - Fixed whole bunch of other issues
-- To JS added:
-    - authorId,
-    - channelId,
-    - userMentions,
-    - roleMentions,
-    - unban(),
-    - takeRole(),
-    - giveRole(),
-    - channelTyping(),
-    - createChannel(),
-    - removeChannel(),
-    - unpinMessage(),
-    - banWithReason(),
-    - kickWithReason(),
-    - removeRole(),
-    - createRole()
+- Added `authorId` to JS
+- Added `channelId` to JS
+- Added `userMentions` to JS
+- Added `roleMentions` to JS
+- Added `unban()` to JS
+- Added `takeRole()` to JS
+- Added `giveRole()` to JS
+- Added `channelTyping()` to JS
+- Added `createChannel()` to JS
+- Added `removeChannel()` to JS
+- Added `unpinMessage()` to JS
+- Added `banWithReason()` to JS
+- Added `kickWithReason()` to JS
+- Added `removeRole()` to JS
+- Added `createRole()` to JS
 - Created status website https://status.botdesignerdiscord.com
 - Web version of *Bot Designer for Discord* has been moved to new address https://botdesignerdiscord.com
 - Fixed some issues in web version
 - Fixed `$banID[]`
 - Preparations for premium points
 
-### November
+### November 2019
 - Added `$rolePosition[]`
 - Released translation strings to volunteers
 - Added `kick()` and `ban()` to JS
