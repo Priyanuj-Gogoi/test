@@ -5,10 +5,10 @@ const config = {
   title: 'BDFD Docs',
   tagline: 'Documention of BDFD Functions, Callbacks, Features etc.',
   url: 'https://priyanuj-gogoi.github.io',
-  baseUrl: '/test/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  onDuplicateRoutes: 'warn',
+  onDuplicateRoutes: 'throw',
   trailingSlash: false,
   organizationName: 'Priyanuj-Gogoi',
   projectName: 'test',
@@ -26,7 +26,6 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/priyanuj-gogoi/test/edit/main/',
           routeBasePath: '/',
-          showLastUpdateAuthor: true,
           showLastUpdateTime: true
         },
         blog: false,
@@ -36,13 +35,14 @@ const config = {
       }),
     ],
   ],
-  plugins: [['docusaurus-plugin-openapi-docs', { id: 'open-api', docsPluginId: 'classic', }]],
+ //  plugins: [['docusaurus-plugin-openapi-docs', { id: 'open-api', docsPluginId: 'classic', }]],
   themeConfig:
     ({
       navbar: {
         title: 'Bot Designer For Discord',
         items: [
           { label: 'Changelog', to: 'changelog', position: 'right' },
+          { label: 'API', to: 'changelog', position: 'right'},
           { label: 'Getting Started', type: 'doc', docId: 'bdscript/intro', position: 'left' },
           { label: 'Callbacks', type: 'doc', docId: 'bdscript/intro', position: 'left' },
           { label: 'Premium', type: 'doc', docId: 'bdscript/intro', position: 'left' },
