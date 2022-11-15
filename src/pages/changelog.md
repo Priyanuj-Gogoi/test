@@ -35,6 +35,8 @@ hide_table_of_contents: false
 - Added `$repliedMessageID`
 - Fixed the guild list fetching issue
 - Added `$parentID`
+- Added development slash commands
+- Added auto-synchronisation of gateway intents
 
 ### September 2022
 - Added `channelID` field to `$awaitFunc[]`
@@ -120,7 +122,7 @@ hide_table_of_contents: false
 - Added `$newModal[]`
 - Added `$addTextInput[]`
 - Added `$input[]`
-- Deprecated `$channelIDFromName[]`, use `$channelID[]` instead
+- Deprecated `$channelIDFromName[]` in favor of `$channelID[]`
 - Added `$onlyForCategories[]`
 - Fixed `$modifyChannelPerms[]` ignoring last permission
 - Added `$onAutoComplete[]` callback
@@ -161,10 +163,12 @@ hide_table_of_contents: false
 - Added debug information inside the app for translators
 - Fixed `$serverNames`
 - Added `%` *(modulo)* to `$calculate[]`
+- Fixed ephemeral interactions
 - Fixed removing custom images
 - Added missing permissions
 - Fixed unintentional server restarts
 - Made last argument in `$replaceText[]` optional
+- Added bot guild list for premium bots in the app
 
 ### November 2021
 - Added `$reply[]`
