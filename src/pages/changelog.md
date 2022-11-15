@@ -1,3 +1,9 @@
+---
+title: Changelog
+description: Check the progress/changes we make every month here.
+hide_table_of_contents: false
+---
+
 # Changelog
 
 ## 2022
