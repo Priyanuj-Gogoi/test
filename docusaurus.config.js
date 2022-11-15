@@ -65,7 +65,7 @@ const config = {
       footer: {
         logo: {
            alt: 'NilPointer Software Logo',
-           src: 'https://github.com/nilpointer-software.png',
+           src: 'img/nilpointer_software.png',
            href: 'https://nilpointersoftware.com'
         },
         style: 'dark',
