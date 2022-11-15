@@ -36,6 +36,7 @@ const config = {
       }),
     ],
   ],
+  plugins: [['docusaurus-plugin-openapi-docs']],
   themeConfig:
     ({
       navbar: {
