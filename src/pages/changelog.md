@@ -209,7 +209,8 @@ hide_table_of_contents: false
 - Added `$isBanned[]`
 - Fixed a problem with `$charCount[]` having problems with unicode
 - Added `$channelType[]`
-- Added `$async[]` block function and `$endasync`
+- Added `$async[]`
+- Added `$endasync`
 - Added `$await[]`
 - Added `$sort[]`
 - Added `$userPerms[]`
@@ -227,7 +228,7 @@ hide_table_of_contents: false
 - Removed permission check from `$deleteChannelsByName[]`
 - Removed permission check from `$deleteChannels[]`
 - Removed permission check from `$createChannel[]`
-- Fixed the issue with bots not working in threads
+- Fixed an issue with bots not working in threads
 - Added `$startThread[]`
 - Added `$webhookColor[]`
 - Fixed optional field in `$getServerVar[]`
@@ -248,7 +249,7 @@ hide_table_of_contents: false
 - Fixed a bug with block-functions adding extra new line in BDScript 2
 - Fixed and optimised `$setVar[]`
 - Added `$sendEmbedMessage[]`
-- Fixed condition parsing in `$if[]` for the normal BDScript and BDScript Unstable (BDScript 2 didn't have any issues)
+- Fixed condition parsing in `$if[]` for normal BDScript and BDScript Unstable
 - Made command saving faster
 
 ### July 2021
@@ -263,7 +264,7 @@ hide_table_of_contents: false
 - Added `$round[]`
 - Added `$enableDecimals[]`
 - Added `$nickname`
-- Added row and column information in BDScript 2 errors
+- Added `row` and `column` information in BDScript 2 errors
 - Fixed the issue with BDScript 2 not requiring `]`
 - Adjusted the optimizer in BDScript 2
 - Added `$onlyForRoleIDs[]`
@@ -286,19 +287,21 @@ hide_table_of_contents: false
 - Fixed `$sendMessage[]` not working in normal BDScript
 - Fixed `$checkUserPerms[]`
 - Added `BDScript 2` script language
-- Added `$try`, `$catch` and `$error`]
-- Added `$eval[]` **(can be only used in BDScript 2)**
-- Added `$optOff[]` **(can be only used in BDScript 2)**
-- Added `$stop[]` **(can be only used in BDScript 2)**
-- Added `$var[]` **(can be only used in BDScript 2)**
-- Added customizable code highlighting
+- Added `$try` **(Only for BDScript 2)**
+- Added `$catch` **(Only for BDScript 2)**
+- Added `$error` **(Only for BDScript 2)**
+- Added `$eval[]` **(Only for BDScript 2)**
+- Added `$optOff[]` **(Only for BDScript 2)**
+- Added `$stop[]` **(Only for BDScript 2)**
+- Added `$var[]` **(Only for BDScript 2)**
+- Added custom code highlighting
 - Fixed `$lowestRole` and `$highestRole`
 - Added `$isBoolean[]`
 - Made it possible to add 5 buttons per row
 - Added optional field `return type` to `$getLeaderboardValue[]`
 - Added `$deleteRole[]`
 - Added `$ephemeral`
-- Added `$elseif[]` **(can be only used in BDScript 2)**
+- Added `$elseif[]` **(Only for BDScript 2)**
 - Fixed URL in buttons
 - Fixed buttons in DMs
 - Fixed problems with custom prefixes
@@ -322,10 +325,14 @@ hide_table_of_contents: false
 - Added `$removeButtons` and `$removeButtons[]`
 - Added `$onInteraction[]` callback
 - Fixed some issues with slash commands
-- Added `$c[]` which can be used for commenting your code
+- Added `$c[]`
 
 ### April 2021
-- Added `$httpGet[]`, `$httpPost[]`, `$httpPut[]`, `$httpDelete[]` and `$httpPatch[]`
+- Added `$httpGet[]`
+- Added `$httpPost[]`
+- Added `$httpPut[]`
+- Added `$httpDelete[]`
+- Added `$httpPatch[]`
 - Improved overall caching
 - Added `$httpResult[]`
 - Made command execution faster
@@ -335,14 +342,14 @@ hide_table_of_contents: false
 - Added `userID` field to `$awaitFunc[]`
 - Fixed removing normal commands and slash commands
 - Added `$removeLinks[]`
-- Made returning authorID optional in `$findUser[]`
+- Made `return authorID` optional in `$findUser[]`
 - Added `$slowmode[]`
 - Added `$checkUserPerms[]`
 - Added `$isNSFW[]`
 - Fixed setting NSFW in `$modifyChannel[]`
 - Fixed `$userJoined[]` and `$userJoinedDiscord[]`
 - Added `$editMessage[]`
-- Fixed caching for new members.
+- Fixed caching for new members
 - Added `$slashCommandsCount`
 - Added `$botID`
 - Added more permissions - AttachFiles, TTS, ManageWebhooks, EmbedLinks, ExternalEmojis
@@ -364,10 +371,12 @@ hide_table_of_contents: false
 
 ### January 2021
 - Fixed the problem with statuses not showing up
-- Fixed the issue with mentions not working
+- Fixed an issue with mentions not working
 - Fixed loading bots from database
 - Increased duration to 40 minutes for `$deleteIn[]`, `$editIn[]`, `$editEmbedIn[]`, `$replyIn[]`
-- Added if statements (`$if[]`, `$else`, `$endif`)
+- Added `$if[]`
+- Added `$else`
+- Added `$endif`
 - Guild ID instead of `everyone` is now returned in `$lowestRole[]` and `$highestRole[]`
 - Removed space commands *(you can still use `$alwaysReply`)*
 - Added `$channelTopic[]`
@@ -430,7 +439,7 @@ hide_table_of_contents: false
 - Fixed `$isMentionable[]`
 - Fixed `$isHoisted[]`
 - Added `$removeSplitTextElement[]`
-- Fixed `$userAvatar[]` no longer stops code execution
+- Fixed `$userAvatar[]` to no longer stops code execution
 - Fixed `$argCount[]`
 - Added `$findUser[]`
 - Added `$findRole[]`
