@@ -1,6 +1,6 @@
 ---
 title: Changelog
-description: Stay Check the progress/changes we make every month here.
+description: Stay up-to-date with latest changes happening around in BDFD.
 hide_table_of_contents: true
 ---
 
