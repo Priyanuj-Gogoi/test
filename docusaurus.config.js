@@ -50,6 +50,7 @@ const config = {
           { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' },
           { label: 'Guides', type: 'doc', docId: 'bdscript/intro', position: 'left' },
           { label: 'Resources', type: 'doc', docId: 'bdscript/intro', position: 'left' },
+          { type: 'search', position: 'right' }
         ],
        hideOnScroll: true
       },
