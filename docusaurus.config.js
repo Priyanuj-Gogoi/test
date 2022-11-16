@@ -55,8 +55,8 @@ const config = {
       },
       image: 'img/banner.jpg',
       colorMode: {
-           defaultMode: 'dark',
-        },
+           disableSwitch: true,
+       },
       metadata : [
         { name: 'og:title', content: 'Bot Designer for Discord • Documention' },
         { name: 'og:description', content: 'Unofficial documention of BDFD functions,  callbacks, features etc.' },
