@@ -72,7 +72,7 @@ const config = {
            width: 94,
            height: 87
         },
-        style: 'dark',
+        style: 'primary',
         links: [{
             title: 'Community',
             items: [
