@@ -72,17 +72,27 @@ const config = {
            height: 87
         },
         style: 'dark',
-        links: [
+        links: [{
+            title: 'Community',
+            items: [
+              { label: 'Discord', href: discord },
+              { label: 'Reddit', href: 'https://www.reddit.com/r/DiscordBotDesigner/' }
+            ]
+          },
           {
             title: 'Quick Links',
             items: [
               { label: 'Website', href: 'https://botdesignerdiscord.com' },
-              { label: 'Android App', href: 'https://play.google.com/store/apps/details?id=com.jakubtomana.discordbotdesinger' },
-              { label: 'iOS App', href: 'https://apps.apple.com/app/bot-designer-for-discord/id1495536477' },
-              { label: 'Web App', href: 'https://botdesignerdiscord.com/app' },
-            ],
+              { label: 'Web App', href: 'https://botdesignerdiscord.com/app' }
+            ]
           },
-        ],
+          {
+             title: 'Download BDFD',
+             items: [
+              { label: 'Android App', href: 'https://play.google.com/store/apps/details?id=com.jakubtomana.discordbotdesinger' },
+              { label: 'iOS App', href: 'https://apps.apple.com/app/bot-designer-for-discord/id1495536477' }
+             ]
+           }],
         copyright: `Copyright © ${ new Date().getFullYear() } NilPointer Software`,
       },
       prism: {
