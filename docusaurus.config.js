@@ -1,31 +1,6 @@
 const bdfd = require('./src/theme/bdfd');
 const discord = 'https://discord.com/servers/bot-designer-for-discord-official-server-566363823137882154';
 
-const sidebars = JSON.stringify({
-  bdscript: [
-     'bdscript/intro',
-    {
-      type: 'category',
-      label: 'Functions',
-      link: { type: 'generated-index' },
-      items: [
-       'bdscript/functions/webhookUsername',
-       'bdscript/functions/year'
-      ]
-    }
-  ],
-  javascript: [
-    'javascript/intro',
-    'javascript/objects',
-    {
-      type: 'category',
-      label: 'Functions',
-      link: { type: 'generated-index' },
-      items: [ 'javascript/functions/ban' ]
-    },
-  ],
-});
-
 const config = {
   title: 'BDFD Docs',
   tagline: 'Documention of BDFD Functions, Callbacks, Features etc.',
@@ -48,7 +23,7 @@ const config = {
       'classic',
       ({
         docs: {
-          sidebarPath: `${sidebars}`,
+          sidebarPath: require.resolve('./sidebars'),
           editUrl: 'https://github.com/priyanuj-gogoi/test/edit/main/',
           routeBasePath: '/',
           showLastUpdateTime: true
