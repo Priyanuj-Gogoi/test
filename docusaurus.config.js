@@ -39,7 +39,7 @@ const config = {
   themeConfig:
     ({
       navbar: {
-        logo: { alt: 'BDFD Logo', src: 'img/bdfd.png' },
+        title: 'Bot Designer For Discord',
         items: [
           { label: 'Changelog', to: 'changelog', position: 'right' },
           { label: 'API', to: 'changelog', position: 'right'},
@@ -72,7 +72,7 @@ const config = {
            width: 94,
            height: 87
         },
-        style: 'primary',
+        style: 'light',
         links: [{
             title: 'Community',
             items: [
