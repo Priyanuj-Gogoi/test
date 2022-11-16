@@ -74,14 +74,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
-            items: [
-              { label: 'Discord', href: discord },
-              { label: 'Reddit', href: 'https://www.reddit.com/r/DiscordBotDesigner/' },
-            ],
-          },
-          {
-            title: 'External Links',
+            title: 'Quick Links',
             items: [
               { label: 'Website', href: 'https://botdesignerdiscord.com' },
               { label: 'Android App', href: 'https://play.google.com/store/apps/details?id=com.jakubtomana.discordbotdesinger' },
