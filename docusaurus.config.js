@@ -94,7 +94,6 @@ const config = {
       },
       prism: {
         theme: bdfd,
-        darkTheme: bdfd,
         defaultLanguage: 'bdscript'
       },
       announcementBar: {
