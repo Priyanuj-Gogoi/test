@@ -48,7 +48,7 @@ const config = {
       'classic',
       ({
         docs: {
-          sidebarPath: '${sidebars}',
+          sidebarPath: `${sidebars}`,
           editUrl: 'https://github.com/priyanuj-gogoi/test/edit/main/',
           routeBasePath: '/',
           showLastUpdateTime: true
