@@ -1,7 +1,7 @@
 const bdfd = require('./src/theme/bdfd');
 const discord = 'https://discord.com/servers/bot-designer-for-discord-official-server-566363823137882154';
 
-const sidebars = {
+const sidebars = JSON.stringify({
   bdscript: [
      'bdscript/intro',
     {
@@ -24,7 +24,7 @@ const sidebars = {
       items: [ 'javascript/functions/ban' ]
     },
   ],
-};
+});
 
 const config = {
   title: 'BDFD Docs',
@@ -48,7 +48,7 @@ const config = {
       'classic',
       ({
         docs: {
-          sidebarPath: sidebars,
+          sidebarPath: '${sidebars}',
           editUrl: 'https://github.com/priyanuj-gogoi/test/edit/main/',
           routeBasePath: '/',
           showLastUpdateTime: true
