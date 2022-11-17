@@ -65,9 +65,9 @@ const config = {
            src: 'img/nilpointer_software.png',
            href: 'https://nilpointer.software',
            width: 94,
-           height: 87
+           height: 87,
+           target: '_blank'
         },
-        style: 'light',
         links: [
          {
             title: 'Community',
@@ -94,7 +94,7 @@ const config = {
         copyright: `Copyright © ${ new Date().getFullYear() } NilPointer Software`,
       },
       prism: {
-        theme: require('./src/theme/bdfd')
+        theme: require.resolve('./src/theme/bdfd')
       },
       announcementBar: {
          backgroundColor: '#CAF0F8',
