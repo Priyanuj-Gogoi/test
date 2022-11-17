@@ -9,8 +9,6 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   onDuplicateRoutes: 'throw',
   trailingSlash: false,
-  organizationName: 'Priyanuj-Gogoi',
-  projectName: 'test',
   favicon: 'https://cdn.discordapp.com/emojis/980037317353930772.png',
   noIndex: true,
   presets: [
