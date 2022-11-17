@@ -1,5 +1,3 @@
-const discord = 'https://discord.com/servers/bot-designer-for-discord-official-server-566363823137882154';
-
 const config = {
   title: 'BDFD Docs',
   tagline: 'Documention of BDFD Functions, Callbacks, Features etc.',
@@ -71,7 +69,7 @@ const config = {
          {
             title: 'Community',
             items: [
-              { label: 'Discord', href: discord },
+              { label: 'Discord', href:  'https://discord.com/servers/bot-designer-for-discord-official-server-566363823137882154' },
               { label: 'Reddit', href: 'https://www.reddit.com/r/DiscordBotDesigner/' }
             ]
           },
@@ -94,10 +92,6 @@ const config = {
       },
       prism: {
         theme: require('./src/theme/bdfd')
-      },
-      announcementBar: {
-         backgroundColor: '#CAF0F8',
-         content: `Need Help? Join us in our official <a target="_blank" title="Bot Designer For Discord Official Server" rel="noopener noreferrer" href="${discord}">Discord server</a>!`
       }
     }),
 };
