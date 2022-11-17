@@ -1,8 +1,5 @@
 const theme = {
-  plain: {
-    color: "#d6deeb",
-    backgroundColor: "#292d3e",
-  },
+  plain: { color: '#d6deeb', backgroundColor: '#292d3e' },
   styles: [
     {
       types: ["changed"],
