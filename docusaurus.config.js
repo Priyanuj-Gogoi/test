@@ -13,10 +13,6 @@ const config = {
   projectName: 'test',
   favicon: 'https://cdn.discordapp.com/emojis/980037317353930772.png',
   noIndex: true,
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
   presets: [
     [
       'classic',
