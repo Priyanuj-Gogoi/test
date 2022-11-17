@@ -101,14 +101,11 @@ module.exports = {
         fontStyle: "italic",
       },
     },
-    { types: ['deleted'], style: { color: '#f72020' }},
-    { types: ['inserted'], style: { color: '#64f720' }},
-    { types: ['comment'], style: { color: '#7f8787', fontStyle: 'italic' }},
+    { types: ['deleted'], style: { color: '#f21D1D' }},
+    { types: ['inserted'], style: { color: '#64F720' }},
+    { types: ['comment'], style: { color: '#7F8787', fontStyle: 'italic' }},
     { types: ['symbol'], style: { color: '#F7639C' }},
-    {
-       types: ['httpFuncs'],
-       style: { color: '#8553FF' }
-    },
+    { types: ['keyword'], style: { color: '#8553FF' }},
     {
       types: ["string"],
       style: {
@@ -155,7 +152,7 @@ module.exports = {
       },
     },
     {
-      types: ["tag", "keyword"],
+      types: ["tag"],
       style: {
         color: "rgb(127, 219, 202)",
       },
