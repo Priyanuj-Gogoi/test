@@ -85,11 +85,7 @@ const theme = {
       types: ['entity'],
       style: { color: "#FF6E6E" }
     },
-    {
-       types: ['url'],
-       style: { color: "#619BF3", fontStyle: 'italic' },
-       languages: ['bdscript', 'bds']
-    },
+    { types: ['url'], style: { color: '#8fbcff', fontStyle: 'italic' }},
     {
        types: ['operator'],
        style: { color: 'rgb(200,162,200)' }
