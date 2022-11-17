@@ -18,13 +18,7 @@ const theme = {
         fontStyle: "italic",
       },
     },
-    {
-      types: ["inserted", "attr-name"],
-      style: {
-        color: "rgb(173, 219, 103)",
-        fontStyle: "italic",
-      },
-    },
+    { types: ['inserted'], style: { color: "#64f720" } },
     {
       types: ["comment"],
       style: {
