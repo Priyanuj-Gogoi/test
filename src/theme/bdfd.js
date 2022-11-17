@@ -11,14 +11,8 @@ const theme = {
         fontStyle: "italic",
       },
     },
-    {
-      types: ["deleted"],
-      style: {
-        color: "rgba(239, 83, 80, 0.56)",
-        fontStyle: "italic",
-      },
-    },
-    { types: ['inserted'], style: { color: "#64f720" } },
+    { types: ['deleted'], style: { color: '#f72020' }},
+    { types: ['inserted'], style: { color: '#64f720' }},
     {
       types: ["comment"],
       style: {
