@@ -44,8 +44,7 @@ const config = {
           { label: 'BDScript', type: 'doc', docId: 'bdscript/intro', position: 'left' },
           { label: 'JavaScript', type: 'doc', docId: 'javascript/intro', position: 'left' },
           { label: 'Guides', type: 'doc', docId: 'bdscript/intro', position: 'left' },
-          { label: 'Resources', type: 'doc', docId: 'bdscript/intro', position: 'left' },
-          { type: 'search', position: 'right' }
+          { label: 'Resources', type: 'doc', docId: 'bdscript/intro', position: 'left' }
         ],
        hideOnScroll: true
       },
@@ -94,7 +93,7 @@ const config = {
         copyright: `Copyright © ${ new Date().getFullYear() } NilPointer Software`,
       },
       prism: {
-        theme: require.resolve('./src/theme/bdfd')
+        theme: require('./src/theme/bdfd')
       },
       announcementBar: {
          backgroundColor: '#CAF0F8',
