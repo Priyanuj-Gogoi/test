@@ -23,7 +23,7 @@ export default function prismIncludeLanguages(Prism) {
          'greedy': true
      },
      'variable': {
-          'pattern': /(?:\$(?:[sg]et(?:Chan{2}el|(?:Us|Serv)er)?V|v)?ar)/,
+          'pattern': /(?:\$(?:v|[sg]et(?:Chan{2}el|(?:Us|Serv)er)?V)ar)/,
           'greedy': true
       },
      'httpFuncs': {
