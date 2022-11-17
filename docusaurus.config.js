@@ -72,7 +72,8 @@ const config = {
            height: 87
         },
         style: 'light',
-        links: [{
+        links: [
+         {
             title: 'Community',
             items: [
               { label: 'Discord', href: discord },
@@ -87,12 +88,13 @@ const config = {
             ]
           },
           {
-             title: 'Download BDFD',
+             title: 'Download',
              items: [
               { label: 'Android App', href: 'https://play.google.com/store/apps/details?id=com.jakubtomana.discordbotdesinger' },
               { label: 'iOS App', href: 'https://apps.apple.com/app/bot-designer-for-discord/id1495536477' }
              ]
-           }],
+           }
+        ],
         copyright: `Copyright © ${ new Date().getFullYear() } NilPointer Software`,
       },
       prism: {
