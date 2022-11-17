@@ -6,7 +6,14 @@ Text
 $authorID
 $author[Text;1]
 $authorURL[https://botdesignerdiscord.com]
-$c[Comment]
+
+$c[Single-line Comment]
+
+$c[Multi-line
+Comment]
+
+$c[ Hello world \]]
+
 %{-SEMICOL-}% \\ \;
 + - * /
 true false yes no
