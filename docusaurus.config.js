@@ -3,11 +3,13 @@ const discord = 'https://discord.com/servers/bot-designer-for-discord-official-s
 const config = {
   title: 'BDFD Docs',
   tagline: 'Documention of BDFD Functions, Callbacks, Features etc.',
-  url: 'https://priyanuj-gogoi.github.io',
-  baseUrl: '/test/',
+  url: 'https://priyanuj-gogoi.github.io', // Change
+  baseUrl: '/test/', // Change
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   onDuplicateRoutes: 'throw',
+  organizationName: 'Priyanuj-Gogoi',  // Change
+  projectName: 'test', // Change
   trailingSlash: false,
   favicon: 'https://cdn.discordapp.com/emojis/980037317353930772.png',
   noIndex: true,
@@ -17,7 +19,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars'),
-          editUrl: 'https://github.com/priyanuj-gogoi/test/edit/main/',
+          editUrl: 'https://github.com/priyanuj-gogoi/test/edit/main/', // Change
           routeBasePath: '/',
           showLastUpdateTime: true
         },
@@ -53,7 +55,7 @@ const config = {
       metadata : [
         { name: 'og:title', content: 'Bot Designer for Discord • Documention' },
         { name: 'og:description', content: 'Unofficial documention of BDFD functions,  callbacks, features etc.' },
-        { name: 'og:url', content: 'https://priyanuj.gogoi.github.io/test' },
+        { name: 'og:url', content: 'https://priyanuj.gogoi.github.io/test' }, // Change
         { name: 'theme-color', content: '#748bd4' }
       ],
       footer: {
