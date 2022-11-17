@@ -11,6 +11,7 @@ const theme = {
     { types: ['deleted'], style: { color: '#f72020' }},
     { types: ['inserted'], style: { color: '#64f720' }},
     { types: ['comment'], style: { color: '#7f8787', fontStyle: 'italic' }},
+    { types: ['symbol'], style: { color: '#F7639C' }},
     {
        types: ['httpFuncs'],
        style: { color: '#8553FF' }
