@@ -44,10 +44,7 @@ export default function prismIncludeLanguages(Prism) {
            { 'pattern': /\\[\\\]\[;]/, 'alias': 'entity' },
            { 'pattern': /%(ESCAPED|\{-?(D|SEMIC)OL-?\})%/, 'alias': 'entity' }
       ],
-     'brackets': {
-          'pattern': /[\[\;\]]/,
-          'alias': 'string'
-        }
+     'symbol': /[\[\;\]]/
    };
 
   Prism.languages.bds = Prism.languages.bdscript;
