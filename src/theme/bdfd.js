@@ -13,13 +13,7 @@ const theme = {
     },
     { types: ['deleted'], style: { color: '#f72020' }},
     { types: ['inserted'], style: { color: '#64f720' }},
-    {
-      types: ["comment"],
-      style: {
-        color: "rgb(99, 119, 119)",
-        fontStyle: "italic",
-      },
-    },
+    { types: ['comment'], style: { color: '#7f8787', fontStyle: 'italic' }},
     {
        types: ['httpFuncs'],
        style: { color: '#8553FF' }
