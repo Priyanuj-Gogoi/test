@@ -1,4 +1,3 @@
-const bdfd = require('./src/theme/bdfd');
 const discord = 'https://discord.com/servers/bot-designer-for-discord-official-server-566363823137882154';
 
 const config = {
@@ -97,8 +96,7 @@ const config = {
         copyright: `Copyright © ${ new Date().getFullYear() } NilPointer Software`,
       },
       prism: {
-        theme: bdfd,
-        defaultLanguage: 'bdscript'
+        theme: require('./src/theme/bdfd')
       },
       announcementBar: {
          backgroundColor: '#CAF0F8',
