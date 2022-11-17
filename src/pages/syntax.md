@@ -32,3 +32,8 @@ $httpDelete
 $httpResult
 $httpStatus
 ```
+
+```diff
+- Hi
++ Hey
+```
