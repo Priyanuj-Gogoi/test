@@ -1,4 +1,4 @@
-const config = {
+module.exports = {
   title: 'BDFD Docs',
   tagline: 'Documention of BDFD Functions, Callbacks, Features etc.',
   url: 'https://priyanuj-gogoi.github.io', // Change
@@ -95,5 +95,3 @@ const config = {
       }
     }),
 };
-
-module.exports = config;
