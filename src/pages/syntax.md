@@ -1,40 +1,112 @@
-# Syntax Highlighting
+## Syntax Highlighting
 
+#### Normal Text
 ```bds
 Text
-[ ] ;
-$authorID
-$author[Text;1]
-$authorURL[https://botdesignerdiscord.com]
-
+```
+#### Reserved Symbol
+```bds
+[ ]
+;
+```
+#### Embed Functions
+```bds
+$authorIcon $authorURL $author
+$footerIcon $footer
+$thumbnail $image
+$addField
+$addTimestamp
+$color
+$embeddedURL
+$title
+```
+#### Comments
+```bds
 $c[Single-line Comment]
 
 $c[Multi-line
 Comment]
 
-$c[ Hello world \]]
-
-%{-SEMICOL-}% \\ \;
-+ - * /
-true false yes no
-> < != == >=
-$var $setUserVar $getUserVar
-$if $async $try
-$sendNotification
-
-$if[$var[a]>=100]
-      $sendMessage[hi\]]
-      $roleGrant[$authorID;+$roleID[a]]
+$c[Comment with Escape Char
+%{-SEMICOL-}%]
+```
+#### Escape Chars
+```bds
+%{-SEMICOL-}% \;
+\\
+\] %ESCAPED%
+\[
+%{DOL}%
+```
+#### Relational Operators
+```bds
+> <
+>= <=
+!= ==
+```
+#### Variables
+```bds
+$var
+$setUserVar $getUserVar
+$setServerVar $getServerVar
+$setChannelVar $getChannelVar
+$setVar $getVar
+```
+#### If
+```bds
+$if
+$else
+$elseif
 $endif
-
-$calculate[(1+2+3+4+5)/25]
-
+```
+#### Async
+```bds
+$async
+$endasync
+$await
+```
+#### Try
+```
+$try
+$catch
+$endtry
+$error
+```
+#### Premium Functions
+```bds
+$sendNotification
+$customImage
+$awaitReactions
+```
+#### Math Functions
+```bds
+$calculate
+$sum $sub
+$multi $divide
+$round $numberSeparator
+$sort
+$max $min
+```
+#### Callbacks
+```bds
 $onJoined
-$alwaysReply
-$onInteraction[]
+$onLeave
+$onInteraction
+$awaitedCommand
+$awaitedCommandError
+$onAutoComplete
+$onBanAdd
+$onBanRemove
+```
+#### Premium Callbacks
+```bds
 $reaction
-
-$httpGet[https://wtfismyip.com]
+$messageContains
+$alwaysReply
+```
+#### HTTP
+```bds
+$httpGet
 $httpPost
 $httpGetHeader
 $httpAddHeader
@@ -44,8 +116,15 @@ $httpDelete
 $httpResult
 $httpStatus
 ```
-
-```diff
-- Hi
-+ Hey
+#### Webhooks
+```bds
+$webhookCreate
+$webhookSend
+$webhookTitle
+$webhookContent
+$webhookDelete
+$webhookDescription
+$webhookAvatarURL
+$webhookUsername
+$webhookFooter
 ```
