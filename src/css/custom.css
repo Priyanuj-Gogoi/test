@@ -1,11 +1,11 @@
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #94c2d4;
+  --ifm-color-primary-dark: #7ab3ca;
+  --ifm-color-primary-darker: #6dacc5;
+  --ifm-color-primary-darkest: #4896b4;
+  --ifm-color-primary-light: #aed1de;
+  --ifm-color-primary-lighter: #bbd8e3;
+  --ifm-color-primary-lightest: #e1eef3;
   --ifm-code-font-size: 95%;
   --ifm-background-color: #1a1a1d;
   --ifm-navbar-background-color: #748bd4;
