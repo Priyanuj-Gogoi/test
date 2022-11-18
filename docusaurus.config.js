@@ -106,6 +106,7 @@ module.exports = {
     { types: ['comment'], style: { color: '#7F8787', fontStyle: 'italic' }},
     { types: ['symbol'], style: { color: '#F7639C' }},
     { types: ['keyword'], style: { color: '#8553FF' }},
+    { types: ['callbacks'], style: { color: '#32A852' }},
     {
       types: ["string"],
       style: {
