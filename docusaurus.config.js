@@ -113,6 +113,22 @@ module.exports = {
     { types: ['attr-name'], style: { color: '#a6e22e !important' } },
     { types: ['rule'], style: { color: '#e6db74' } },
     { types: ['doctype'], style: { color: '#8292a2' } },
+
+    // BDScript
+    { types: ['bds-nomention'], style: { color: '#ae81ff' } },
+    { types: ['bds-operator'], style: { color: '#f92672' } },
+    { types: ['bds-escape-chars'], style: { color: '#ae81ff' } },
+    { types: ['bds-callbacks'], style: { color: '#f92672' } },
+    { types: ['bds-variables'], style: { color: '#ae81ff' } },
+    { types: ['bds-http-funcs'], style: { color: '#f92672' } },
+    { types: ['bds-if'], style: { color: '#ae81ff' } },
+    { types: ['bds-async'], style: { color: '#f92672' } },
+    { types: ['bds-try'], style: { color: '#ae81ff' } },
+    { types: ['bds-embeds'], style: { color: '#f92672' } },
+    { types: ['bds-webhooks'], style: { color: '#ae81ff' } },
+    { types: ['bds-func'], style: { color: '#f92672' } },
+    { types: ['bds-comment'], style: { color: '#ae81ff' } },
+    { types: ['bds-symbol'], style: { color: '#f92672' } },
   ],
 }
       }
