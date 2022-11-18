@@ -19,17 +19,14 @@ export default function prismIncludeLanguages(Prism) {
 
 Prism.languages.bdscript = {
     'bds-nomention': /\$nomention/,
-    'operator': {
-        'pattern': /(?<Arithmetic>[+\-*\/%])|(?<Relational>[=!]=|[<>]=?)/,
+    'bds-operator': {
+        'pattern': /[=!]=|[<>]=?)/,
         'greedy': true
     },
-    'bds-escape-characters': [{
-        'pattern': /\\[\\\]\[;]/,
-        'alias': 'entity'
-    }, {
-        'pattern': /%(ESCAPED|\{-?(D|SEMIC)OL-?\})%/,
-        'alias': 'entity'
-    }],
+    'bds-escape-characters': [
+        /\\[\\\]\[;]/,
+       /%(ESCAPED|\{-?(D|SEMIC)OL-?\})%/
+    ],
     'bds-callbacks': {
         'pattern': /\$(?:a(?:waitedCom{2}and(?:Er{2}or)?|lwaysReply)|on(?:AutoComplete|Joined|Leave|Interaction|Mes{2}ageDelete|Ban(?:Ad{2}|Remove))|reaction|mes{2}ageContains)/,
         'greedy': true
