@@ -42,7 +42,7 @@ export default function prismIncludeLanguages(Prism) {
      'bds-if': /\$(?:(?:end)?if|else(?:if)?)/,
      'bds-embeds': [
         {
-          pattern: /\$(?:autho|fo{2}te)r(?:Icon|(?<=or)URL)?/,
+          'pattern': /\$(?:autho|fo{2}te)r(?:Icon|(?<=or)URL)?/,
           'lookbehind': true,
           'greedy': true,
         }
