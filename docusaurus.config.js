@@ -48,7 +48,7 @@ module.exports = {
       },
       image: 'img/banner.jpg',
       colorMode: {
-           default: 'dark',
+           defaultMode: 'dark',
        },
       metadata : [
         { name: 'og:title', content: 'Bot Designer for Discord • Documention' },
@@ -57,6 +57,7 @@ module.exports = {
         { name: 'theme-color', content: '#748bd4' }
       ],
       footer: {
+        style: 'dark',
         logo: {
            alt: 'NilPointer Software Logo',
            src: 'img/nilpointer_software.png',
