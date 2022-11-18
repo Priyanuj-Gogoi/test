@@ -26,6 +26,10 @@ export default function prismIncludeLanguages(Prism) {
            { 'pattern': /\\[\\\]\[;]/, 'alias': 'entity' },
            { 'pattern': /%(ESCAPED|\{-?(D|SEMIC)OL-?\})%/, 'alias': 'entity' }
       ],
+     'important': {
+         'pattern': /^\$a(?:waitedCom{2}and(?:Error)?|lwaysReply)|on(?:AutoComplete|Joined|Leave|Interaction|Mes{2}ageDelete|Ban(?:Ad{2}|Remove))|reaction|messageContains/,
+         'greedy': true
+      },
      'variable': {
           'pattern': /\$(?:[gs]et(?:Chan{2}el|(?:Serv|Us)er)?V|v)ar/,
           'greedy': true
