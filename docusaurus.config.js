@@ -48,7 +48,7 @@ module.exports = {
       },
       image: 'img/banner.jpg',
       colorMode: {
-           disableSwitch: true,
+           default: 'dark',
        },
       metadata : [
         { name: 'og:title', content: 'Bot Designer for Discord • Documention' },
@@ -63,7 +63,6 @@ module.exports = {
            href: 'https://nilpointer.software',
            width: 94,
            height: 87,
-           target: '_blank'
         },
         links: [
               { label: 'Discord', href:  'https://discord.com/servers/bot-designer-for-discord-official-server-566363823137882154' },
