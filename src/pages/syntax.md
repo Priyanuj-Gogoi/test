@@ -29,6 +29,11 @@ $endif
 
 $calculate[(1+2+3+4+5)/25]
 
+$onJoined
+$alwaysReply
+$onInteraction[]
+$reaction
+
 $httpGet[https://wtfismyip.com]
 $httpPost
 $httpGetHeader
