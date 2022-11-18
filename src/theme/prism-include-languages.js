@@ -17,7 +17,7 @@
 
 export default function prismIncludeLanguages(Prism) {
 
-  Prism.languages.bdscript = {
+  Prism.languages['bdscript', 'bds'] = {
      'operator': {
          'pattern': /(?<Arithmetic>[+\-*\/%])|(?<Relational>[=!]=|[<>]=?)/,
          'greedy': true
@@ -44,6 +44,4 @@ export default function prismIncludeLanguages(Prism) {
      'comment': /\$c\[[\s\S]*?\]/,
      'symbol': /[\[\;\]]/
    };
-
-  Prism.languages.bds = Prism.languages.bdscript;
 }
