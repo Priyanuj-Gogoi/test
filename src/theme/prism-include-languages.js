@@ -31,7 +31,7 @@ Prism.languages.bdscript = {
         'alias': 'entity'
     }],
     'bds-callbacks': {
-        'pattern': /\$a(?:waitedCom{2}and(?:Er{2}or)?|lwaysReply)|on(?:AutoComplete|Joined|Leave|Interaction|Mes{2}ageDelete|Ban(?:Ad{2}|Remove))|reaction|mes{2}ageContains/,
+        'pattern': /\$(?:a(?:waitedCom{2}and(?:Er{2}or)?|lwaysReply)|on(?:AutoComplete|Joined|Leave|Interaction|Mes{2}ageDelete|Ban(?:Ad{2}|Remove))|reaction|mes{2}ageContains)/,
         'greedy': true
     },
     'bds-variables': {
