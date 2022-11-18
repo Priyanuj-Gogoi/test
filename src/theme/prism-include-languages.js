@@ -17,7 +17,7 @@
 
 export default function prismIncludeLanguages(Prism) {
 
-  Prism.languages['bdscript', 'bds'] = {
+  Prism.languages.bdscript = {
      'operator': {
          'pattern': /(?<Arithmetic>[+\-*\/%])|(?<Relational>[=!]=|[<>]=?)/,
          'greedy': true
@@ -26,7 +26,7 @@ export default function prismIncludeLanguages(Prism) {
            { 'pattern': /\\[\\\]\[;]/, 'alias': 'entity' },
            { 'pattern': /%(ESCAPED|\{-?(D|SEMIC)OL-?\})%/, 'alias': 'entity' }
       ],
-     'important': {
+     'callbacks': {
          'pattern': /^\$a(?:waitedCom{2}and(?:Er{2}or)?|lwaysReply)|on(?:AutoComplete|Joined|Leave|Interaction|Mes{2}ageDelete|Ban(?:Ad{2}|Remove))|reaction|mes{2}ageContains/,
          'greedy': true
       },
@@ -44,4 +44,6 @@ export default function prismIncludeLanguages(Prism) {
      'comment': /\$c\[[\s\S]*?\]/,
      'symbol': /[\[\;\]]/
    };
+
+   Prism.languages.bds = Prism.languages.bdscript;
 }
