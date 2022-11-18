@@ -20,7 +20,7 @@ export default function prismIncludeLanguages(Prism) {
 Prism.languages.bdscript = {
     'bds-nomention': /\$nomention/,
     'bds-operator': {
-        'pattern': /[=!]=|[<>]=?)/,
+        'pattern': /[=!]=|[<>]=?/,
         'greedy': true
     },
     'bds-escape-characters': [
