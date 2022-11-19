@@ -1,4 +1,4 @@
-let highlight = [];
+let highlight = require('prism-react-renderer/themes/dracula');
 let definition = {};
 
 const add = (name = required('Name'), syntax = required('Syntax'), style = {}) => {
