@@ -1,8 +1,6 @@
 const theme = require('prism-react-renderer/themes/dracula');
 
-require('./src/theme/bdscript').highlight.forEach((x) => {
-   theme.styles.push(x)
-});
+require('./src/theme/bdscript').highlight.forEach((x) => theme.styles.push(x));
 
 module.exports = {
   title: 'BDFD Docs',
