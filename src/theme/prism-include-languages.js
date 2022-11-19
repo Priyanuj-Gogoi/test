@@ -11,6 +11,7 @@ export default function prismIncludeLanguages(PrismObject) {
   });
 
   PrismObject.languages.bdscript = require('./bdscript').definition;
+  PrsimObject.languages.bds = PrismObject.languages.bdscript;
 
   delete globalThis.Prism;
 }
