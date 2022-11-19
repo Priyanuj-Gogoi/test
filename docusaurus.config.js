@@ -1,6 +1,10 @@
-const bdfd = require('./src/theme/bdscript').highlight;
+const theme = require('prism-react-renderer/themes/dracula');
 
-const config = {
+require('./src/theme/bdscript').highlight.forEach((x) => {
+   theme.styles.push(x)
+});
+
+module.exports = {
   title: 'BDFD Docs',
   tagline: 'Documention of BDFD Functions, Callbacks, Features etc.',
   url: 'https://priyanuj-gogoi.github.io', // Change
@@ -78,9 +82,7 @@ const config = {
         copyright: `Copyright © ${ new Date().getFullYear() } NilPointer Software`,
       },
       prism: {
-        theme: bdfd
+        theme: theme
       }
     }),
 };
-
-module.exports = config;
