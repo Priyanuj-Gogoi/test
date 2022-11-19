@@ -1,23 +1,6 @@
-const bds = [
-    { types: ['bds-nomention'], style: { color: '#b25ae8' } },
-    { types: ['bds-operator'], style: { color: '#44e2eb' } },
-    { types: ['bds-escape-chars'], style: { color: '#baeda4' } },
-    { types: ['bds-callbacks'], style: { color: '#eb9a44' } },
-    { types: ['bds-variables'], style: { color: '#eb4444' } },
-    { types: ['bds-http-funcs'], style: { color: '#f28fd3' } },
-    { types: ['bds-if'], style: { color: '#a0eb44' } },
-    { types: ['bds-async'], style: { color: '#dfeb44' } },
-    { types: ['bds-try'], style: { color: '#7eeb44' } },
-    { types: ['bds-embeds'], style: { color: '#34eb77' } },
-    { types: ['bds-webhooks'], style: { color: '#d8b6db' } },
-    { types: ['bds-func'], style: { color: '#5aade8' } },
-    { types: ['bds-comment'], style: { color: '#b2afb3' } },
-    { types: ['bds-symbol'], style: { color: '#eb446b' } },
-];
-
 const theme = require('prism-react-renderer/themes/dracula');
 
-bds.forEach(function(i) {
+require('./src/theme/bdscript').highlight.forEach(function(i) {
    theme.styles.push(i)
 })
 
