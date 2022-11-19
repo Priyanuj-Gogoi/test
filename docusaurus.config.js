@@ -78,7 +78,7 @@ const config = {
         copyright: `Copyright © ${ new Date().getFullYear() } NilPointer Software`,
       },
       prism: {
-        theme: bdfd;
+        theme: bdfd
       }
     }),
 };
