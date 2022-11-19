@@ -86,7 +86,7 @@ module.exports = {
     { types: ['property', 'number', 'function-name', 'constant', 'symbol', 'deleted'], style: { color: '#5a9bcf' } },
     { types: ['boolean'], style: { color: '#ff8b50' } },
     { types: ['tag'], style: { color: '#fc929e' } },
-    { types: ['selector', 'char', 'builtin' 'inserted'], style: { color: '#D8DEE9' } },
+    { types: ['selector', 'char', 'builtin', 'inserted'], style: { color: '#D8DEE9' } },
     { types: ['function'], style: { color: '#79b6f2' } },
     { types: ['variable', 'operator', 'url', 'entity'], style: { color: '#d7deea' } },
     { types: ['atrule', 'class-name'], style: { color: '#FAC863' } },
