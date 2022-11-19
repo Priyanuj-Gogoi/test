@@ -18,14 +18,19 @@
 export default function prismIncludeLanguages(Prism) {
 
 Prism.languages.bdscript = {
+     // $c
     'bds-comment': /\$c\[[\s\S]*?\]/,
+    // $nomention
     'bds-nomention': /\$nomention/,
+    // != == > < >= <=
     'bds-operator': {
         'pattern': /[=!]=|[<>]=?/,
         'greedy': true
     },
     'bds-escape-chars': [
+        // \] \\ \; \[
         /\\[\\\]\[;]/,
+        // %{-SEMICOL-}% %ESCAPED% %{DOL}%
        /%(ESCAPED|\{-?(D|SEMIC)OL-?\})%/
     ],
     'bds-callbacks': {
