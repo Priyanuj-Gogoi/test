@@ -60,4 +60,7 @@ add('math', /\$(?:s(?:ort|u[mb])|m(?:ax|in)|enableDecimals|divide|m(?:ulti|odulo
 
 add('time', /\$(?:da(?:y|te)|getTimestamp|time|minute|second|hour|month|year)/);
 
+console.log(highlight)
+console.log(definition)
+
 module.exports = { highlight, definition };
