@@ -1,3 +1,8 @@
+const bdfd = { hi: 'Hlw'};
+const theme = { ...require('prism-react-renderer/themes/dracula'), ...bdfd };
+
+console.log(theme);
+
 module.exports = {
   title: 'BDFD Docs',
   tagline: 'Documention of BDFD Functions, Callbacks, Features etc.',
