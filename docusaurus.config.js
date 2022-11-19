@@ -77,27 +77,24 @@ module.exports = {
       },
       prism: {
         theme: {
-  plain: { color: '#f8f8f2', backgroundColor: '#272822' },
+  plain: { color: '#ffffff', backgroundColor: '#282c34' },
   styles: [
-    // Okadia Theme
-    { types: ['changed'], style: { color: 'rgb(162, 191, 252)', fontStyle: 'italic' } },
-    { types: ['deleted'], style: { color: '#f92672' } },
-    { types: ['inserted'], style: { color: 'rgb(173, 219, 103)' } },
-    { types: ['comment'], style: { color: '#8292a2', fontStyle: 'italic' } },
-    { types: ['symbol'], style: { color: '#F7639C' }},
-    { types: ['operator', 'tag', 'keyword'], style: { color: '#66d9ef' } },
-    { types: ['string', 'url'], style: { color: '#a6e22e' } },
-    { types: ['variable'], style: { color: '#f8f8f2' } },
-    { types: ['number'], style: { color: '#ae81ff' } },
+    // OceanicNext Theme
+    { types: ['selector', 'char', 'builtin' 'inserted'], style: { color: 'rgb(173, 219, 103)' } },
+    { types: ['comment', 'block-comment', 'prolog', 'doctype', 'cdata', 'shebang'], style: { color: '#999999', fontStyle: 'italic' } },
+    { types: ['keyword'], style: { color: '#c5a5c5' } },
+    { types: ['string'], style: { color: '#8dc891' } },
+    { types: ['variable', 'operator', 'url', 'entity'], style: { color: '#d7deea' } },
     { types: ['builtin', 'char', 'constant', 'function', 'class-name'], style: { color: '#e6db74' } },
-    { types: ['punctuation'], style: { color: '#f8f8f2' } },
-    { types: ['selector', 'doctype'], style: { color: '#a6e22e', fontStyle: 'italic' } },
-    { types: ['boolean'], style: { color: '#ae81ff' } },
-    { types: ['property'], style: { color: '#f92672' } },
+    { types: ['punctuation'], style: { color: '#5FB3B3' } },
+    { types: ['selector'], style: { color: '#a6e22e', fontStyle: 'italic' } },
+    { types: ['boolean'], style: { color: '#ff8b50' } },
+    { types: ['property', 'number', 'function-name', 'constant', 'symbol', 'deleted'], style: { color: '#5a9bcf' } },
     { types: ['namespace'], style: { color: 'rgb(178, 204, 214)' } },
-    { types: ['attr-name'], style: { color: '#a6e22e !important' } },
-    { types: ['rule'], style: { color: '#e6db74' } },
-    { types: ['doctype'], style: { color: '#8292a2' } },
+    { types: ['attr-name'], style: { color: '#c5a5c5' } },
+    { types: ['attr-value'], style: { color: '#8dc891' } },
+    { types: ['atrule', 'class-name'], style: { color: '#FAC863' } },
+    { types: ['tag'], style: { color: '#fc929e' } },
 
     // BDScript
     { types: ['bds-nomention'], style: { color: '#b25ae8' } },
