@@ -46,7 +46,7 @@ Prism.languages.bdscript = {
         'greedy': true
     },
     'bds-if': /\$(?:(?:end)?if|else(?:if)?)/,
-    'bds-async': /\$(?:endasync|a(?:wait|sync))/,
+    'bds-async': /\$(?:endasync|a(?:wait[^R]|sync))/,
     'bds-try': {
         'pattern': /\$(?:(?:end)?try|er{2}or|catch)/,
         'greedy': true
