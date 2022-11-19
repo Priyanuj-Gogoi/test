@@ -1,13 +1,10 @@
-let
-	highlight = [],
-	definition = {};
+let highlight = [];
+let definition = {};
 
 const add = (name = required('Name'), syntax = required('Syntax'), style = {}) => {
-
 	if (!/^[a-z\d\-]+$/.test(name)) {
 		throw new Error('Unsupported token name! Must be only lowercase ASCII letters, digits, or hyphens (-)');
 	};
-
 	highlight.push({ types: `bds-${name}`, style });
 	definition[`bds-${name}`] = syntax;
 };
