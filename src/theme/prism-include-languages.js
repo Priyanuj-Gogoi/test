@@ -58,9 +58,10 @@ Prism.languages.bdscript = {
     }, {
         'pattern': /\$ad{2}[FT]i(?:eld|mestamp)/,
         'greedy': true
-    },
-       /\$(?:image|color|embeddedURL|(?:t(?:humbnail|itle)))/
-    ],
+    }, {
+        'pattern': /\$(?:image|color|embed{2}edURL|(?:t(?:humbnail|itle)))/,
+        'greedy': true
+    }],
     'bds-webhooks': {
        'pattern': /\$webho{2}k(?:AvatarURL|C(?:reate|o(?:lor|ntent))|De(?:lete|scription)|Fo{2}ter|Send|Title|Username)/,
        'greedy': true
