@@ -99,7 +99,7 @@ module.exports = {
         copyright: `Copyright © ${ new Date().getFullYear() } NilPointer Software`,
       },
       prism: {
-        theme: dracula
+        theme: theme
       }
     }),
 };
