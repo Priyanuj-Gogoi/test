@@ -1,4 +1,4 @@
-const bdscript = [
+const bds = [
     { types: ['bds-nomention'], style: { color: '#b25ae8' } },
     { types: ['bds-operator'], style: { color: '#44e2eb' } },
     { types: ['bds-escape-chars'], style: { color: '#baeda4' } },
@@ -13,15 +13,13 @@ const bdscript = [
     { types: ['bds-func'], style: { color: '#5aade8' } },
     { types: ['bds-comment'], style: { color: '#b2afb3' } },
     { types: ['bds-symbol'], style: { color: '#eb446b' } },
-]
+];
 
-const dracula = require('prism-react-renderer/themes/dracula');
+const theme = require('prism-react-renderer/themes/dracula');
 
-bdscript.forEach(function(i) {
-   dracula.styles.push(i)
+bds.forEach(function(i) {
+   theme.styles.push(i)
 })
-
-console.log(theme);
 
 module.exports = {
   title: 'BDFD Docs',
