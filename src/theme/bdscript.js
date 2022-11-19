@@ -56,9 +56,9 @@ add('function', {
 
 add('symbol', /[\[\;\]]/, { color: '#eb446b' });
 
-add('math', /\$(?:s(?:ort|u[mb])|m(?:ax|in)|enableDecimals|divide|m(?:ulti|odulo)|calculate|round|numberSeparator)/);
+// add('math', /\$(?:s(?:ort|u[mb])|m(?:ax|in)|enableDecimals|divide|m(?:ulti|odulo)|calculate|round|numberSeparator)/);
 
-add('time', /\$(?:da(?:y|te)|getTimestamp|time|minute|second|hour|month|year)/);
+// add('time', /\$(?:da(?:y|te)|getTimestamp|time|minute|second|hour|month|year)/);
 
 console.log(highlight)
 console.log(definition)
