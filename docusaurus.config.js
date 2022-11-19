@@ -1,10 +1,4 @@
-const theme = require('prism-react-renderer/themes/dracula');
-
-let bdfd = require('./src/theme/bdscript').highlight;
-
-bdfd.forEach((x) => {
-  theme.styles.push(x)
-});
+const bdfd = require('./src/theme/bdscript').highlight;
 
 const config = {
   title: 'BDFD Docs',
@@ -84,7 +78,7 @@ const config = {
         copyright: `Copyright © ${ new Date().getFullYear() } NilPointer Software`,
       },
       prism: {
-        theme: theme
+        theme: bdfd;
       }
     }),
 };
