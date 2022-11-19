@@ -2,7 +2,7 @@ const theme = require('prism-react-renderer/themes/dracula');
 
 require('./src/theme/bdscript').highlight.forEach((x) => theme.styles.push(x));
 
-module.exports = {
+const config = {
   title: 'BDFD Docs',
   tagline: 'Documention of BDFD Functions, Callbacks, Features etc.',
   url: 'https://priyanuj-gogoi.github.io', // Change
@@ -84,3 +84,5 @@ module.exports = {
       }
     }),
 };
+
+module.exports = config;
