@@ -10,8 +10,7 @@ export default function prismIncludeLanguages(PrismObject) {
     require(`prismjs/components/prism-${lang}`);
   });
 
-  PrismObject.languages.bdscript = require('./bdscript').definition;
-  PrismObject.languages.bds = PrismObject.languages.bdscript;
+  Prism.languages.bds = require('./bdscript').definition;
 
   delete globalThis.Prism;
 }
