@@ -1,5 +1,25 @@
-const bdfd = { hi: 'Hlw'};
-const theme = { ...require('prism-react-renderer/themes/dracula'), ...bdfd };
+const bdscript = [
+    { types: ['bds-nomention'], style: { color: '#b25ae8' } },
+    { types: ['bds-operator'], style: { color: '#44e2eb' } },
+    { types: ['bds-escape-chars'], style: { color: '#baeda4' } },
+    { types: ['bds-callbacks'], style: { color: '#eb9a44' } },
+    { types: ['bds-variables'], style: { color: '#eb4444' } },
+    { types: ['bds-http-funcs'], style: { color: '#f28fd3' } },
+    { types: ['bds-if'], style: { color: '#a0eb44' } },
+    { types: ['bds-async'], style: { color: '#dfeb44' } },
+    { types: ['bds-try'], style: { color: '#7eeb44' } },
+    { types: ['bds-embeds'], style: { color: '#34eb77' } },
+    { types: ['bds-webhooks'], style: { color: '#d8b6db' } },
+    { types: ['bds-func'], style: { color: '#5aade8' } },
+    { types: ['bds-comment'], style: { color: '#b2afb3' } },
+    { types: ['bds-symbol'], style: { color: '#eb446b' } },
+]
+
+const dracula = require('prism-react-renderer/themes/dracula');
+
+bdscript.forEach(function(i) {
+   dracula.styles.push(i)
+})
 
 console.log(theme);
 
@@ -81,42 +101,7 @@ module.exports = {
         copyright: `Copyright © ${ new Date().getFullYear() } NilPointer Software`,
       },
       prism: {
-        theme: {
-  plain: { color: '#ffffff', backgroundColor: '#282c34' },
-  styles: [
-    // OceanicNext Theme
-    { types: ['attr-name', 'keyword'], style: { color: '#c5a5c5' } },
-    { types: ['attr-value', 'string', 'punctuation'], style: { color: '#8dc891' } },
-    { types: ['comment', 'block-comment', 'prolog', 'doctype', 'cdata', 'shebang'], style: { color: '#999999' } },
-    { types: ['property', 'number', 'function-name', 'constant', 'symbol', 'deleted'], style: { color: '#5a9bcf' } },
-    { types: ['boolean'], style: { color: '#ff8b50' } },
-    { types: ['tag'], style: { color: '#fc929e' } },
-    { types: ['selector', 'char', 'builtin', 'inserted'], style: { color: '#D8DEE9' } },
-    { types: ['function'], style: { color: '#79b6f2' } },
-    { types: ['variable', 'operator', 'url', 'entity'], style: { color: '#d7deea' } },
-    { types: ['atrule', 'class-name'], style: { color: '#FAC863' } },
-    { types: ['important'], style: { fontWeight: '400' } },
-    { types: ['bold'], style: { fontWeight: 'bold' } },
-    { types: ['italic'], style: { fontStyle: 'italic' } },
-    { types: ['namespace'], style: { opacity: 0.7 } },
-
-    // BDScript
-    { types: ['bds-nomention'], style: { color: '#b25ae8' } },
-    { types: ['bds-operator'], style: { color: '#44e2eb' } },
-    { types: ['bds-escape-chars'], style: { color: '#baeda4' } },
-    { types: ['bds-callbacks'], style: { color: '#eb9a44' } },
-    { types: ['bds-variables'], style: { color: '#eb4444' } },
-    { types: ['bds-http-funcs'], style: { color: '#f28fd3' } },
-    { types: ['bds-if'], style: { color: '#a0eb44' } },
-    { types: ['bds-async'], style: { color: '#dfeb44' } },
-    { types: ['bds-try'], style: { color: '#7eeb44' } },
-    { types: ['bds-embeds'], style: { color: '#34eb77' } },
-    { types: ['bds-webhooks'], style: { color: '#d8b6db' } },
-    { types: ['bds-func'], style: { color: '#5aade8' } },
-    { types: ['bds-comment'], style: { color: '#b2afb3' } },
-    { types: ['bds-symbol'], style: { color: '#eb446b' } },
-  ],
-}
+        theme: dracula
       }
     }),
 };
