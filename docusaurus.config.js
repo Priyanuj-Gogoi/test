@@ -62,25 +62,6 @@ module.exports = {
         { name: 'og:url', content: 'https://priyanuj.gogoi.github.io/test' }, // Change
         { name: 'theme-color', content: '#748bd4' }
       ],
-      footer: {
-        style: 'dark',
-        logo: {
-           alt: 'NilPointer Software Logo',
-           src: 'img/nilpointer_software.png',
-           href: 'https://nilpointer.software',
-           width: 94,
-           height: 87,
-        },
-        links: [
-              { label: 'Discord', href:  'https://discord.com/servers/bot-designer-for-discord-official-server-566363823137882154' },
-              { label: 'Reddit', href: 'https://www.reddit.com/r/DiscordBotDesigner/' },
-              { label: 'Website', href: 'https://botdesignerdiscord.com' },
-              { label: 'Web App', href: 'https://botdesignerdiscord.com/app' },
-              { label: 'Android App', href: 'https://play.google.com/store/apps/details?id=com.jakubtomana.discordbotdesinger' },
-              { label: 'iOS App', href: 'https://apps.apple.com/app/bot-designer-for-discord/id1495536477' }
-        ],
-        copyright: `Copyright © ${ new Date().getFullYear() } NilPointer Software`,
-      },
       prism: {
         theme: theme
       }
