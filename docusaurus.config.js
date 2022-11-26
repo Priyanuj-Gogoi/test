@@ -34,7 +34,23 @@ module.exports = {
       }),
     ],
   ],
- //  plugins: [['docusaurus-plugin-openapi-docs', { id: 'open-api', docsPluginId: 'classic', }]],
+  plugins: [
+     [
+        '@docusaurus/plugin-pwa',{
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          { tagName: 'link', rel: 'icon', href: '/img/docusaurus.png' },
+          { tagName: 'link', rel: 'manifest', href: './static/manifest.json' },
+          { tagName: 'meta', name: 'theme-color', content: 'rgb(37, 194, 160)', },
+        ],
+      }
+    ]
+   ],
   themeConfig:
     ({
       navbar: {
